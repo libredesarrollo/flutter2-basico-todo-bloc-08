@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:todoapp_08/models/todo_model.dart';
-import 'package:todoapp_08/pages/list_page.dart';
 import 'package:todoapp_08/todos_bloc.dart';
 import 'package:todoapp_08/widgets/custom_text_field.dart';
 
 class SavePage extends StatelessWidget {
-  static const String ROUTE = "/save";
+  static const String route = "/save";
 
   final TextEditingController nameEC = TextEditingController();
   final TextEditingController descriptionEC = TextEditingController();
@@ -14,7 +13,7 @@ class SavePage extends StatelessWidget {
 
   final TodosBloc todosBloc; //= TodosBloc();
 
-  SavePage() : todosBloc = TodosBloc();
+  SavePage({super.key}) : todosBloc = TodosBloc();
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +40,7 @@ class SavePage extends StatelessWidget {
             icon: Icons.list,
             controller: nameEC,
           ),
-          SizedBox(
+          const SizedBox(
             height: 15,
           ),
           CustomTextField(
@@ -49,7 +48,7 @@ class SavePage extends StatelessWidget {
             icon: Icons.description,
             controller: descriptionEC,
           ),
-          SizedBox(
+          const SizedBox(
             height: 15,
           ),
           CustomTextField(
@@ -57,7 +56,7 @@ class SavePage extends StatelessWidget {
             icon: Icons.check,
             controller: completeEC,
           ),
-          SizedBox(
+          const SizedBox(
             height: 15,
           ),
           CustomTextField(
@@ -66,10 +65,10 @@ class SavePage extends StatelessWidget {
             type: TextInputType.number,
             controller: priorityEC,
           ),
-          SizedBox(
+          const SizedBox(
             height: 15,
           ),
-          RaisedButton(
+          ElevatedButton(
               child: Text(todo.id == 0 ? "Insertar" : "Actualizar"),
               onPressed: () {
                 todo.name = nameEC.text;
@@ -81,10 +80,11 @@ class SavePage extends StatelessWidget {
                   todo.priority = 1;
                 }
 
-                if (todo.id == 0)
+                if (todo.id == 0) {
                   todosBloc.todoInsertSink.add(todo);
-                else
+                } else {
                   todosBloc.todoUpdateSink.add(todo);
+                }
 
                 Navigator.pop(context);
                /* Navigator.pushNamedAndRemoveUntil(

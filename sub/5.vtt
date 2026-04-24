@@ -1,0 +1,211 @@
+WEBVTT
+
+00:05.290 --> 00:07.780
+Ok, vamos a definir el modelo principal para la aplicación.
+
+00:08.020 --> 00:11.560
+Como puede suponer una aplicación de todo, así que el modelo se va a llamar simplemente todo.
+
+00:11.740 --> 00:12.370
+Todo listo.
+
+00:12.730 --> 00:13.420
+Como lo quiera llamar.
+
+00:14.620 --> 00:18.920
+Vamos a crear aquí en la carpeta, allí dentro de la carpeta Lick, una carpeta llamada Models.
+
+00:18.940 --> 00:23.680
+Aquí lo tenemos y vamos a crear el archivo llamado Todo bien bajo model.
+
+00:24.340 --> 00:24.700
+Punto.
+
+00:25.390 --> 00:26.040
+Aquí lo tenemos.
+
+00:26.050 --> 00:29.740
+Y viene siendo el usuario cero flash de todo que lo tenemos.
+
+00:30.220 --> 00:36.430
+Vamos a indicar los elementos necesarios en Abby, obviamente, porque si el stream de main también
+
+00:36.430 --> 00:41.010
+sería el string de descripción y también sería el string.
+
+00:41.140 --> 00:49.090
+Por ejemplo, cumplirte void y también la prioridad Tim, prí o Hitty.
+
+00:50.620 --> 00:51.990
+Aquí puedes crear el constructor Yitzhak.
+
+00:52.000 --> 00:57.030
+Como es que si no quieres que te lo crea, automáticamente puedes colocar para cafeina de manera momentaneo
+
+00:57.850 --> 00:58.980
+a Clift.
+
+00:59.100 --> 01:01.540
+A todo esto escribimos Faina.
+
+01:02.440 --> 01:03.010
+Aquí lo tenemos.
+
+01:03.010 --> 01:05.050
+Estamos un contra el punto crear el constructor.
+
+01:05.110 --> 01:06.790
+Aquí lo tenemos Paillaco.
+
+01:06.880 --> 01:10.780
+Voy a cortar el constructor, doy un control Z y por aquí voy a pegarlo.
+
+01:10.870 --> 01:12.950
+Vamos a quitar el parámetro Webby Y perfecto.
+
+01:13.690 --> 01:14.850
+Vamos a trabajar con base de datos.
+
+01:14.860 --> 01:19.210
+Por lo tanto, la base de datos generalmente trancón, yoismo, mapas, todo viene de la mano.
+
+01:19.690 --> 01:22.060
+Así que por tal motivo necesitamos un par de funciones más.
+
+01:22.780 --> 01:27.460
+Una para mapear todo esto directamente un mapa, es decir, de convertir un objeto, un mapa y otra
+
+01:27.460 --> 01:33.610
+para simplemente convertir un mapa a un objeto, como presuponer la primera sería la de Tuma, es decir,
+
+01:33.610 --> 01:38.110
+de convertir en un objeto mapa sería para guardar estos datos en la base de datos y la siguiente sería
+
+01:38.110 --> 01:39.590
+para obtener o ir.
+
+01:39.700 --> 01:43.120
+Una vez obtenido los datos, la base de datos convertirlo en objeto para trabajarlo en otras páginas
+
+01:43.180 --> 01:43.660
+sería eso.
+
+01:44.590 --> 01:46.090
+De igual manera, más adelante lo empleamos.
+
+01:46.630 --> 01:47.500
+Vamos con el de tu map.
+
+01:48.310 --> 01:53.010
+Será un mapa de tipo String y aquí sería de Benham, ya que puede ser entero, ya que puede ser zuliano.
+
+01:53.020 --> 02:00.230
+Todo lo que tu lo quieras colocar aquí lo tenemos y vamos a llamarlo simplemente como tu map y sería
+
+02:00.230 --> 02:03.070
+el usual retornar algo de qué?
+
+02:03.190 --> 02:03.560
+El mapa.
+
+02:04.810 --> 02:08.550
+Así que Mayne V name.
+
+02:08.890 --> 02:11.440
+Pues colocar el ti si tu quieres, pero no me saca.
+
+02:11.470 --> 02:14.890
+Colocamos el punto com y este sería para.
+
+02:14.890 --> 02:16.960
+Bueno, voy a copiar pegar porque qué fastidio.
+
+02:17.960 --> 02:25.140
+Complet bait y por aquí priority este sería nuestro mapa, este creo que quedo.
+
+02:25.150 --> 02:32.200
+Además el Heidy no lo voy a colocar porque no tiene sentido mapear el Heidy del mapa, ya que si por
+
+02:32.200 --> 02:37.600
+ejemplo el registro existe, no tiene sentido mapear el mapa Leidy del mapa porque esto no se cambia
+
+02:37.960 --> 02:38.500
+y se me vino.
+
+02:38.500 --> 02:41.440
+Existe el adulo va a crear la base de datos, así que no mapea nada.
+
+02:42.550 --> 02:45.810
+Ahora la siguiente sería para el from map.
+
+02:46.210 --> 02:50.380
+Pero antes de eso, ya que tenemos simplemente una función que realiza un retorno, ya recuerda que
+
+02:50.380 --> 02:53.620
+para convertir esto en función de flecha, simplemente por acá quitas esto.
+
+02:54.010 --> 02:59.410
+Bueno Shinya, esta llave simplemente el retorno y esta llave coloca la flecha y por aquí ahora te queda
+
+02:59.410 --> 03:00.310
+una llave.
+
+03:00.310 --> 03:04.240
+Además, esto viene siendo lo mismo para la siguiente función.
+
+03:04.960 --> 03:05.830
+Va a devolver un todo.
+
+03:06.970 --> 03:07.960
+Vamos a llamarlo todo.
+
+03:10.680 --> 03:11.980
+From Mapp.
+
+03:12.840 --> 03:14.290
+Colocamos acá un mar de.
+
+03:14.730 --> 03:21.220
+Bueno, lo mismo da Río Stream, pero adentro porDios stream y de tipos vain admit.
+
+03:21.930 --> 03:23.140
+Voy a llamarlo simplemente map.
+
+03:23.760 --> 03:27.510
+Nuestro mapa y por aquí hacemos las operaciones correspondientes aquí.
+
+03:27.510 --> 03:28.410
+Por cierto, Bama.
+
+03:30.990 --> 03:36.930
+Qué sería simplemente retornar un todo de constructor que estamos empleando o que definimos anteriormente?
+
+03:37.890 --> 03:41.160
+Recordemos que para consultar el mapa colocamos acá simplemente, por ejemplo Main.
+
+03:42.140 --> 03:43.410
+Y lo mismo para el resto de los casos.
+
+03:43.440 --> 03:45.090
+Puedes copiar esto con una cómo pego?
+
+03:46.200 --> 03:51.900
+Y sería justamente cuatro veces sin el Heidy obviamente porque sería description por el que sería el
+
+03:51.900 --> 03:54.570
+copyright y porque sería la prioridad.
+
+03:55.050 --> 03:56.880
+Por cierto, no cambia los valores de culpa.
+
+04:00.140 --> 04:03.470
+Ahora si esto nuevamente para convertir a una función de flecha.
+
+04:03.590 --> 04:06.410
+Qué es esto y qué es esto?
+
+04:08.000 --> 04:08.280
+Y listo.
+
+04:08.310 --> 04:12.980
+Ya con esto tenemos el modelo que nos vamos a emplear para guardar nuestros todos.

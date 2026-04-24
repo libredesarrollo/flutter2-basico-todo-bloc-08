@@ -4,7 +4,7 @@ import 'package:todoapp_08/helpers/todo_db.dart';
 import 'package:todoapp_08/models/todo_model.dart';
 
 class TodosBloc {
-  static TodosBloc _singlenton = TodosBloc._internal();
+  static final TodosBloc _singlenton = TodosBloc._internal();
 
   late TodoDb db;
   List<Todo> todosList = [];
@@ -46,7 +46,7 @@ class TodosBloc {
 
   Future getAll() async {
     List<Todo> todos = await db.getAll();
-    this.todosList = todos;
+    todosList = todos;
 
     todosAllSink.add(todos);
   }

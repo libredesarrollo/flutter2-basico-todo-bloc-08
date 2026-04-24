@@ -1,0 +1,250 @@
+WEBVTT
+
+00:06.090 --> 00:10.980
+La siguiente operación que tenemos que ver sería la de encontrar simplemente un elemento dado el identificador,
+
+00:11.010 --> 00:13.440
+que viene siendo el llamado a que vaya Hedi por convención.
+
+00:13.860 --> 00:15.540
+Esto quiero que te lo tomes como un pequeño reto.
+
+00:15.540 --> 00:18.360
+Voy a intentar hacerlo tú, al menos hasta donde más puedas.
+
+00:18.390 --> 00:21.540
+Recuerda que tuviéramos que hacer algo muy similar a lo que tenemos por acá.
+
+00:21.660 --> 00:25.710
+Aquí ya tenemos parte del trabajo realizado que sería definir el Finder, que viene siendo el filtro
+
+00:26.010 --> 00:29.640
+para buscar un elemento en particular, para simplemente alterar un elemento en particular.
+
+00:30.030 --> 00:33.840
+Y en este caso, por supuesto, tenemos que emplear otra función que no sea ni la Dubey ni la debiliten,
+
+00:34.320 --> 00:35.310
+que también la puede ver por acá.
+
+00:35.440 --> 00:36.610
+Se crea, por ejemplo, todos.
+
+00:36.630 --> 00:37.110
+Punto.
+
+00:37.710 --> 00:43.020
+Vas a ver que tenemos la define que ya la empleamos por acá para buscar todos los elementos que por
+
+00:43.020 --> 00:49.770
+supuesto, también pueden pasarle a otros filtros para, por ejemplo, aquí lo tenemos, alterar la
+
+00:49.770 --> 00:51.150
+ordenación, entre otras cosas.
+
+00:52.080 --> 00:55.920
+Pero aquí tenemos a lo mejor que viene siendo la llamada Humphries, que la puedes emplear para que
+
+00:55.920 --> 01:00.360
+simplemente te devuelva un solo elemento, ya que se emplea es la de fin, te va a devolver directamente
+
+01:00.370 --> 01:04.080
+una colección que no es lo que queremos en este punto, ya que queremos obtener simplemente un elemento.
+
+01:04.590 --> 01:05.940
+Pero aquí también hay un pequeño truco.
+
+01:06.060 --> 01:11.130
+Puede ser que tu usuario te pase un identificador incorrecto, por lo tanto, en ese caso tienes que
+
+01:11.130 --> 01:14.520
+validar la data que está recibiendo distinta, nula o nula.
+
+01:15.510 --> 01:21.060
+Así que te pido que por favor, básicamente intentes avanzar lo más que puedas o completa directamente
+
+01:21.120 --> 01:22.050
+este pequeño reto.
+
+01:26.660 --> 01:27.110
+Bien, perfecto.
+
+01:27.140 --> 01:27.530
+Cómo te fue?
+
+01:27.600 --> 01:31.220
+Espero que lo hayas podido resolver sin problemas o al menos hayas podido avanzar bastante.
+
+01:31.910 --> 01:32.630
+Vamos a comenzar.
+
+01:32.720 --> 01:34.940
+Como te comentaba, hacer una copia de esto, al menos del Finder.
+
+01:34.970 --> 01:39.020
+Voy a copiarlo para tenerlo ya reference y voy a definir la función por acá.
+
+01:39.170 --> 01:44.930
+Normalmente tiene que ser un fichero, pero este fichero va a devolver un todo que obviamente es lo
+
+01:44.930 --> 01:45.290
+que queremos.
+
+01:45.290 --> 01:48.650
+En este punto la función se ha llamar simplemente como Guetta.
+
+01:49.580 --> 01:51.470
+Voy ahí o algo por el estilo.
+
+01:52.010 --> 01:57.230
+Va a ser de este passing y por supuesto por aquí va a recibir simplemente el identificador.
+
+01:57.830 --> 02:01.130
+No va a recibir el todo porque no tiene sentido recibir el todo, porque lo que queremos buscar.
+
+02:01.280 --> 02:07.520
+Así que simplemente colocamos acá in Heidy y por aquí operación obviamente a necesitar este finger,
+
+02:07.970 --> 02:13.820
+pero simplemente indicando el livvy lo recibe perfectamente y por aquí la operación en cuestión va a
+
+02:13.820 --> 02:18.830
+ser de tipo Waite, obviamente porque no vamos a conectarla a la base de datos de todos todos.
+
+02:19.130 --> 02:19.640
+Punto.
+
+02:20.090 --> 02:22.700
+Y sería este método que te comentaba por aquí.
+
+02:22.700 --> 02:29.300
+Le tenemos que pasar a cliente la base de datos DAT Aveis Data Voice y también le tenemos que pasar
+
+02:29.390 --> 02:30.050
+el filtro.
+
+02:31.070 --> 02:37.880
+Colocamos Fiddler de Finder y aquí finalmente tenemos nuestro registro que por supuesto tenemos que
+
+02:37.880 --> 02:40.250
+guardar en alguna parte para hacer la validación que te comentaba.
+
+02:40.910 --> 02:45.380
+Faina lo va a llamar simplemente snapshots, porque recuerda que lo que tenemos acá no sería directamente
+
+02:45.380 --> 02:47.070
+nuestro todo, sino un snapshot.
+
+02:47.090 --> 02:52.610
+Como puedes ver por acá que en este caso lo convertimos en Mapi todo esto, pero una colección aquí
+
+02:52.610 --> 02:59.300
+simplemente sería solamente uno snapshot va a ser igual a esto y lo primero que vamos a hacer sería
+
+02:59.300 --> 03:00.320
+comprobar si esto es nulo.
+
+03:01.670 --> 03:09.380
+Si esto es un condicional if esto es igual, igual a nulo significa que esto es inválido, por lo tanto
+
+03:09.380 --> 03:10.640
+simplemente retornamos nulo.
+
+03:11.210 --> 03:14.960
+Pero yo quiero hacer aquí lo que sería básicamente las condiciones cuando esto no es nulo.
+
+03:15.740 --> 03:24.530
+Así que coloco aquí esto distinto en uno y por aquí vamos a retornar uno como caso base y por aquí sería
+
+03:24.590 --> 03:28.910
+básicamente retornar nuestro todo que ya hemos procesado.
+
+03:29.720 --> 03:32.480
+Así que en este punto ya sabemos que básicamente tenemos data.
+
+03:32.480 --> 03:34.610
+Encontramos el identificador, es correcto.
+
+03:35.300 --> 03:36.260
+Así que colocamos final.
+
+03:36.260 --> 03:38.330
+Todo va a ser igual a todo.
+
+03:38.720 --> 03:39.920
+Y qué método tenemos que emplear?
+
+03:40.250 --> 03:40.970
+Bueno, aquí ya lo tenemos.
+
+03:40.970 --> 03:45.920
+Yannis, a la trampa froma y le pasamos directamente el mapa que viene siendo el snapshot, pero no
+
+03:45.920 --> 03:50.240
+directamente el layout, sino en FLACSO en la posición punto value.
+
+03:50.450 --> 03:55.880
+Y aquí si finalmente tenemos el mapa que lo convertimos en todo y finalmente lo retornamos, recuerda
+
+03:55.880 --> 04:01.770
+que falta un paso muy importante que sería obtener el IBI al cual hicimos por acá Breena Chuki, que
+
+04:01.790 --> 04:06.830
+no lo tenemos mapeado directamente, así que colocamos todo punto y ahí va a ser igual snapshot.
+
+04:09.220 --> 04:09.910
+Punto hay bien.
+
+04:10.240 --> 04:11.290
+Colocamos el punto y coma.
+
+04:13.330 --> 04:15.850
+Bueno, aquí disculpa y guardamos.
+
+04:16.330 --> 04:18.550
+Ya tenemos el método, así que vamos a probarlo rápidamente.
+
+04:19.510 --> 04:27.520
+Regresamos acá y vamos a colocarlo, por ejemplo por acabo de comentar esto y bueno, todo esto vamos
+
+04:27.520 --> 04:34.730
+a comentarlo por acá también y por acá finalmente colocamos todo de V.
+
+04:36.310 --> 04:36.880
+Punto.
+
+04:37.810 --> 04:41.970
+La función que creamos anteriormente y le pasamos por puntos, que sería la idea que yo tengo por acá.
+
+04:42.830 --> 04:44.740
+Faina Todo igual a esto.
+
+04:44.950 --> 04:45.810
+El imprimimos por acá.
+
+04:45.850 --> 04:47.290
+Pairing todo.
+
+04:48.400 --> 04:49.810
+Ponte cómodo, ponte cómodo.
+
+04:49.810 --> 04:52.450
+Guardamos, recargamos y aquí lo tenemos.
+
+04:52.690 --> 04:53.950
+Puedes colocar por acá de la Waid.
+
+04:56.320 --> 04:56.830
+Le quiebra.
+
+04:57.310 --> 04:58.000
+Punto, neng.
+
+04:58.690 --> 04:59.290
+Guardamos.
+
+04:59.950 --> 05:00.760
+Recargamos.
+
+05:03.460 --> 05:04.520
+Y es que lo tenemos.

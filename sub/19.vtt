@@ -1,0 +1,475 @@
+WEBVTT
+
+00:06.170 --> 00:10.760
+Ok, vamos a seguir y lo siguiente que vamos a hacer sería finalmente crear un elemento para eso, más
+
+00:10.760 --> 00:14.960
+hacer lo usual, simplemente crear aquí el blog y notificamos el evento y listo.
+
+00:15.500 --> 00:16.580
+Sería prácticamente todo.
+
+00:17.210 --> 00:18.170
+Vamos a crearlo por acá.
+
+00:18.350 --> 00:24.080
+Sería el usual todo blog para colocarlo en global de blog.
+
+00:25.250 --> 00:29.540
+Pero aquí tenemos un pequeño problema porque debemos inicializar el mismo ya que nos chello porque tiene
+
+00:29.540 --> 00:30.490
+que ser del tipo final.
+
+00:31.970 --> 00:34.850
+Pero aquí nosotros podemos hacer algo como lo siguiente perfectamente.
+
+00:35.480 --> 00:36.610
+También puedes hacerlo otra manera.
+
+00:36.620 --> 00:43.440
+Por ejemplo, si tuvieras un constructor, podemos colocar acá el de 6 6 page.
+
+00:44.120 --> 00:45.650
+Colocamos el constructor aquí.
+
+00:45.650 --> 00:49.850
+Recuerda que empleamos para llamar a la superclase, pero también podemos emplearlo para, por ejemplo,
+
+00:49.850 --> 00:51.920
+indicar que blot.
+
+00:52.270 --> 00:55.550
+Bueno, voy a colocarlo todo vlogs para que quede a juego.
+
+00:56.900 --> 00:57.440
+Va a ser igual.
+
+00:57.530 --> 00:59.150
+Voy a comentar esto a todo lo que tenemos acá.
+
+00:59.600 --> 01:05.510
+Colocamos punto y coma y el nombre correcto va a saber que la secta perfectamente puede emplear esta
+
+01:05.510 --> 01:06.140
+implementación.
+
+01:06.740 --> 01:10.300
+Cuesta la que tu quieras, da igual bajarlos y para simplemente variar un poco.
+
+01:11.090 --> 01:17.870
+Pero finalmente ya con esto nosotros podemos emplear el evento para la inserción que recuerda nuevamente
+
+01:18.020 --> 01:24.440
+que estamos llamando a este evento llamado Todo insercion, que internamente llama a la función que
+
+01:24.440 --> 01:29.840
+definimos por acá, la pinza que finalmente inserta nuestro elemento y notifica todos los cambios tal
+
+01:29.840 --> 01:31.100
+cual tratamos anteriormente.
+
+01:31.220 --> 01:33.110
+Y aquí simplemente insertamos en la base de datos.
+
+01:34.220 --> 01:43.340
+Así que vamos a bajar por acá, por acá guarde todo pendiente y por acá colocamos en todos blot.
+
+01:43.910 --> 01:44.450
+Punto.
+
+01:45.500 --> 01:49.660
+Recuerda que colocas aquí si te aparecen todos losing que tu puedes emplear, nos interesa este.
+
+01:49.760 --> 01:53.870
+Tenemos que pasar con todo y nuevamente como queremos notificar cambios, es decir, queremos insertar,
+
+01:53.900 --> 01:59.450
+tenemos que emplear la función de Mahaut y por aquí finalmente el todo ya lo tenemos que crear, por
+
+01:59.450 --> 01:59.900
+supuesto.
+
+02:00.560 --> 02:08.780
+Así que todo recuerda que aquí estoy colocando todo como tú quieras y le pasamos los elementos correspondientes
+
+02:08.810 --> 02:15.290
+main main controller, punto таких command descripción punto tex.
+
+02:16.250 --> 02:19.460
+Comment La siguiente sería la complir.
+
+02:20.990 --> 02:27.390
+Complir punto texto coma prioridad, la prioridad la tenemos que cambiar uno entero.
+
+02:27.410 --> 02:32.270
+De momento, hacerlo así a lo bruto, es decir, siempre pasa en el valor correcto para evitar una sección.
+
+02:33.260 --> 02:36.290
+Luego una encargada de validar esto un poco más, pero al menos de momento, para las prueba que quiero
+
+02:36.290 --> 02:43.340
+hacer, voy a hacerlo así, a lo bruto prioridad punto таких y esto debería ser todo va a quedar este
+
+02:43.340 --> 02:45.740
+año y no sé si esto te ha importado, no está.
+
+02:45.830 --> 02:50.390
+Lo importábamos y perfecto, esto debería ser todo que recuerda que estamos notificando los cambios
+
+02:50.390 --> 02:53.510
+y con esto podría llamarse al string builder del texto que tenemos acá.
+
+02:53.720 --> 02:57.200
+Voy a guardar, voy a recargar o límpianos.
+
+02:57.830 --> 03:02.930
+Voy a colocar aquí también un print para saber qué exactamente está llamando print b.
+
+03:03.800 --> 03:09.020
+Hola Mundo, ya lo vamos a borrar igual simplemente quiero saber si esto se ejecuta, no se ejecuta.
+
+03:09.710 --> 03:11.330
+Guardamos o a limpiar esto.
+
+03:12.230 --> 03:14.240
+Regresamos acá y colocamos algo.
+
+03:14.450 --> 03:22.430
+Por ejemplo 3 Hola por mí y coloco aquí 1.
+
+03:22.520 --> 03:26.260
+Por Dios muy pendiente, simplemente coloco un número para evitar problemas.
+
+03:26.260 --> 03:29.180
+Si hacer la prueba correctamente vamos a guardar todo.
+
+03:29.180 --> 03:35.290
+Funciona muy bonito, pero mira aquí no se llama al string bilder, es decir, recordemos que nosotros
+
+03:35.300 --> 03:37.040
+colocamos por acá.
+
+03:37.040 --> 03:39.610
+Se me perdió el archivo list page.
+
+03:40.180 --> 03:45.620
+Nosotros colocamos acá la siguiente impresión para saber cuando se de plata función string bilder bilder
+
+03:45.980 --> 03:50.560
+y recordemos que esta función se llama cada vez que tengamos cambios en el streaming, es decir, en
+
+03:50.570 --> 03:54.620
+electrГіnico estamos escuchando por acá y recordemos que nosotros tenemos cambios en el streaming cada
+
+03:54.620 --> 04:00.020
+vez que hacemos unas operaciones CRUD tal cual analizamos nosotros por acá en la función tal que estamos
+
+04:00.020 --> 04:04.570
+llamando a este escuchador y este otro comentado anteriormente, pero aquí nos está notificando.
+
+04:04.580 --> 04:08.000
+Por lo tanto tenemos un problema para entender qué es lo que está pasando por acá.
+
+04:08.210 --> 04:09.740
+Vamos a hacer una prueba rápidamente.
+
+04:10.430 --> 04:14.840
+Recordemos que por acá y este es el factor clave, estamos creando una nueva instancia de todos los
+
+04:14.840 --> 04:15.170
+blot.
+
+04:16.010 --> 04:21.860
+Vamos a ver qué pasa si nosotros empleamos el blog en el cual nos encontramos registrado inicialmente,
+
+04:21.860 --> 04:28.760
+es decir, que tenemos acá en el componente del Speight por acá en vez de hacer la navegación en el
+
+04:28.880 --> 04:31.910
+ta ta ta ta ta ta en el masque lo tenemos por acá arriba.
+
+04:32.720 --> 04:33.800
+Va a comenzar este momento.
+
+04:34.310 --> 04:40.520
+Vamos a hacer lo siguiente todos blondet, vamos a insertar un todo que podemos crear aquí, cualquier
+
+04:40.520 --> 04:41.130
+cosa, todo.
+
+04:41.940 --> 04:54.010
+B Por ejemplo tres uno coma tres uno coma por mi coma uno.
+
+04:55.100 --> 04:55.980
+Cómo vamos a guardar?
+
+04:56.000 --> 04:57.800
+Voy a recargar todo esto por si las moscas.
+
+04:59.120 --> 05:01.400
+Voy a regresar por acá y aquí lo tenemos.
+
+05:02.570 --> 05:05.510
+Si le vamos a guardar, va a saber que lo toma perfectamente.
+
+05:05.510 --> 05:08.330
+Si revisamos aquí estamos llamando al deprimido.
+
+05:08.420 --> 05:10.730
+O mejor dicho, se está llamando de manera automática nuestro tren bilder.
+
+05:11.060 --> 05:14.990
+Según la lógica que implementamos en este punto, ya seguramente estás cansado de escucharme repitiendo
+
+05:14.990 --> 05:20.080
+a cada rato lo mismo está funcionando correctamente, cosa que no sucedía cuando probamos por acá y
+
+05:20.090 --> 05:22.040
+esto se debe a que tenemos otra instancia.
+
+05:22.100 --> 05:28.010
+Por lo tanto, cuando estamos creando el objeto por acá en el constructor, recordemos que aquí en el
+
+05:28.010 --> 05:31.880
+constructor estamos llamando a todo esto, que no son estáticas.
+
+05:31.940 --> 05:40.430
+Por lo tanto estamos llamando todo esto a todos estos listener con la definición de clases y todo esto.
+
+05:41.480 --> 05:44.860
+Pero el pequeño problema es que esto no viene siendo de instancia única.
+
+05:44.860 --> 05:49.640
+Es decir, cada vez que nosotros estamos creando un objeto de todos Blot, se está creando un nuevo
+
+05:49.640 --> 05:55.160
+elemento, un duplicado tanto por aquí en el espacio como por aquí en el componente SPG.
+
+05:55.760 --> 06:01.250
+Por lo tanto, básicamente se está aplicando este y nos está llamándonos temblando el músico lo mismo
+
+06:01.250 --> 06:06.650
+el streaming, lo mismo canales que definimos, ya sea en el componente SPG con el componente elespacio.
+
+06:06.650 --> 06:09.320
+En pocas palabras son independientes, son dos canales completamente independientes.
+
+06:09.350 --> 06:13.620
+Cómo se tocamos un objeto de todo con este texto y por aquí queremos otro objeto de todo.
+
+06:13.640 --> 06:20.150
+Por ejemplo, por acá de otro objeto son dos, todos completamente distintos, son todos que ocupa una
+
+06:20.150 --> 06:23.090
+posición de memoria completamente distinta, son completamente aislado.
+
+06:23.210 --> 06:24.200
+Es como si fueran dos gemelos.
+
+06:24.410 --> 06:24.980
+Así de siempre.
+
+06:24.980 --> 06:29.330
+Son dos entidades completamente distintas y es lo que está pasando por acá.
+
+06:31.280 --> 06:35.810
+Esto, obviamente, se puede resolver simplemente creando una instancia única de todos blot.
+
+06:36.140 --> 06:40.280
+Pero nuevamente te repito, mi objetivo principal en todo esto es más que hacer simplemente la aplicación,
+
+06:40.700 --> 06:45.350
+enseñarte los posibles problemas, enseñarte las posibles implementaciones, enseñarte el canal de cómo
+
+06:45.350 --> 06:46.100
+funciona todo esto.
+
+06:46.130 --> 06:48.110
+Por lo tanto, lo en este punto, de esta manera.
+
+06:48.890 --> 06:50.120
+Así que de momento, no te preocupes.
+
+06:50.230 --> 06:54.860
+Esto obviamente también lo podemos resolver de algunas maneras, pero al menos ya conecto ahora el objetivo,
+
+06:54.980 --> 06:57.590
+que era simplemente hacer la comunicación correspondiente.
+
+06:58.010 --> 06:59.090
+Ahora bien, antes de terminar.
+
+06:59.600 --> 07:00.690
+Si quieres hacer una prueba más.
+
+07:00.710 --> 07:01.490
+Muy interesante.
+
+07:02.000 --> 07:07.790
+Recordemos que toda esta lógica, es decir la comunicación de lo literal se logra gracias a que estamos
+
+07:07.790 --> 07:09.860
+aquí empleando el siguiente evento.
+
+07:10.490 --> 07:11.480
+Vamos a hacer una prueba más.
+
+07:11.720 --> 07:14.930
+Recuerda que esto está aquí funcionando correctamente, es decir, ve al espejo.
+
+07:15.830 --> 07:18.170
+Si vamos a agregar como estamos empleando la misma instancia.
+
+07:21.200 --> 07:22.490
+Todo funciona correctamente.
+
+07:23.270 --> 07:25.460
+Pero qué pasa si nos tranki, colocamos una instancia nueva.
+
+07:25.520 --> 07:28.490
+Por ejemplo, colocamos acá todos blot.
+
+07:30.440 --> 07:34.420
+El constructor y esto básicamente lo que estamos haciendo aquí se declara un objeto colocar aquí a New
+
+07:34.430 --> 07:37.610
+y todo esto, pero lo estamos haciendo directo, como tú quieras.
+
+07:38.180 --> 07:40.790
+Si guardamos, limpiamos.
+
+07:40.790 --> 07:44.240
+Acabo de colocar dos nuevas distancio.
+
+07:45.530 --> 07:46.280
+Vamos a guardar.
+
+07:46.910 --> 07:47.900
+Voy a regresar por acá.
+
+07:49.820 --> 07:50.460
+Voy a Nuclear.
+
+07:50.990 --> 07:52.220
+Vas a ver que no funciona.
+
+07:52.520 --> 07:55.280
+No refresca el estado y era por lo que te conversaba anteriormente.
+
+07:55.550 --> 08:00.230
+Ya con esto te puedes ser la prueba definitiva para entender que necesitamos una instancia única de
+
+08:00.230 --> 08:01.580
+nuestro blog para que funcione.
+
+08:01.790 --> 08:02.810
+Fijate que se lo ofrezcamos.
+
+08:03.650 --> 08:08.270
+Por aquí aparece el elemento que creamos anteriormente, que fue creado perfectamente la base de datos,
+
+08:08.600 --> 08:11.990
+pero no fue notificado por los canales que nosotros implementamos en este punto.
+
+08:12.920 --> 08:17.750
+Ahora bien, una prueba más antes de que me parece muy interesante, también voy a copiar esto, a dejarlo
+
+08:17.750 --> 08:18.710
+como lo teníamos por acá.
+
+08:22.920 --> 08:27.990
+Vamos a regresar por acá y vamos a crear un duplicado de esta función, al menos de momento voy a llamarla
+
+08:27.990 --> 08:31.560
+Quiriat 2 y voy a quitar esto para ver qué pasa.
+
+08:33.150 --> 08:33.630
+Guardamos.
+
+08:33.690 --> 08:38.700
+Ahora, cuando creemos un elemento, esta prueba lo puedes hacer cuando elimines, cuando actualices
+
+08:38.730 --> 08:40.560
+y también con insertas como tú quieras.
+
+08:41.100 --> 08:42.060
+Vamos a ver qué pasa.
+
+08:42.900 --> 08:47.520
+Recordemos que aquí estamos empleando la instancia única o la misma distancia que tenemos aquí en el
+
+08:47.520 --> 08:48.660
+componente del Estado.
+
+08:49.350 --> 08:51.240
+Voy a recargar todo para estar completamente seguro.
+
+08:52.410 --> 08:53.370
+Vamos a regresar por acá.
+
+08:53.400 --> 08:54.210
+Vamos a limpiar esto.
+
+08:56.750 --> 08:57.090
+Vamos.
+
+08:57.270 --> 08:58.860
+Bueno, vamos a colocar acá el nombre.
+
+08:58.960 --> 08:59.040
+Vamos.
+
+08:59.070 --> 08:59.520
+Ya lo tenemos.
+
+08:59.520 --> 09:00.000
+3 1.
+
+09:01.320 --> 09:02.310
+Vamos a crear.
+
+09:02.880 --> 09:04.380
+Vas a ver que no funciona.
+
+09:04.530 --> 09:09.780
+Y esto es porque fíjate que por aquí no aparece el mensaje del mensaje anterior.
+
+09:10.950 --> 09:16.620
+Aquí no estamos notificando los cambios justamente por el fin que tenemos acá y así.
+
+09:16.680 --> 09:21.930
+Y aquí lo importante de siempre notificarnos cambios, implementarlos según la lógica que nosotros necesitemos.
+
+09:22.070 --> 09:26.100
+En este caso sería nuevamente te repito por última vez sería lo siguiente Recuerda que esté listener
+
+09:26.100 --> 09:30.540
+que tenemos acá, justamente que tenemos acá, está empleando el mismo controlador.
+
+09:30.810 --> 09:31.830
+Aquí tenemos dos listen.
+
+09:31.830 --> 09:37.030
+Es completamente distinto el de Trim y el decíme, pero realmente cuando comuniquese eventos por ejemplo
+
+09:37.030 --> 09:41.640
+en éste se está comunicando cualquier otra cosa que te escuchando a este que en este caso seria nuestro
+
+09:41.640 --> 09:44.340
+string bilder que tenemos justamente por acá.
+
+09:45.480 --> 09:51.360
+Por lo tanto, en este punto, cuando nosotros hacemos alguna operación que nos interesa mandar el evento,
+
+09:51.600 --> 09:52.770
+nosotros no lo notificamos.
+
+09:52.860 --> 09:56.430
+Obviamente no se va a notificar ya lo que nosotros probamos por acá.
+
+09:57.540 --> 10:01.230
+Así que antes de terminar quitamos esto y lo dejamos como lo teníamos inicialmente.
+
+10:02.580 --> 10:04.890
+Guardamos y ya con esto terminamos este video.

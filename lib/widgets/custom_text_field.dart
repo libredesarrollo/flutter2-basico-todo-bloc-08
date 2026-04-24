@@ -9,7 +9,7 @@ class CustomTextField extends StatelessWidget {
   final TextEditingController controller;
   final TextInputType type;
 
-  const CustomTextField({
+  const CustomTextField({super.key, 
     required this.placeholder,
     required this.icon,
     required this.controller,
@@ -22,22 +22,22 @@ class CustomTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
-      obscureText: this.obscureText,
-      controller: this.controller,
-      keyboardType: this.type,
+      obscureText: obscureText,
+      controller: controller,
+      keyboardType: type,
       decoration: InputDecoration(
-          prefixIcon: Icon(this.icon),
-          hintText: this.placeholder,
-          contentPadding: EdgeInsets.only(top: 14),
+          prefixIcon: Icon(icon),
+          hintText: placeholder,
+          contentPadding: const EdgeInsets.only(top: 14),
           enabledBorder: OutlineInputBorder(
               borderSide: BorderSide(
-                  color: this.primaryColor
+                  color: primaryColor
                       ?? Theme.of(context).primaryColor,
                   width: 2.0)),
           focusedBorder: OutlineInputBorder(
               borderSide: BorderSide(
-                  color: this.accentColor ??
-                      Theme.of(context).accentColor,
+                  color: accentColor ??
+                      Theme.of(context).colorScheme.secondary,
                   width: 1.0))),
     );
   }

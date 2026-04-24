@@ -1,0 +1,79 @@
+WEBVTT
+
+00:05.480 --> 00:10.010
+En esta sección vamos a crear una aplicación de tipo todo, pero más interesante que la aplicación sería
+
+00:10.310 --> 00:12.740
+lo que nosotros vamos a emplear para implementar la misma.
+
+00:13.250 --> 00:17.600
+Básicamente vamos a emplear finalmente una base de datos, una base de datos conservas que funciona
+
+00:17.600 --> 00:18.320
+en base a mapas.
+
+00:18.920 --> 00:24.170
+Y también con esto vamos a apoyarnos en el patrón llamado Blot para hacer dos cosas fundamentales tanto
+
+00:24.170 --> 00:28.810
+manejar la lógica de negocios, es decir, la implementación con base de datos, como también hacer
+
+00:28.820 --> 00:33.890
+la interacción con nuestra aplicación, ya que recuerda que el patrón llamado blog nos permite implementar
+
+00:33.890 --> 00:38.720
+un conjunto de eventos para actualizar la data, con lo cual estamos trabajando el bus de datos, específicamente
+
+00:38.720 --> 00:40.280
+la base de datos de nuestro todos.
+
+00:40.700 --> 00:41.870
+Por lo tanto se nos trosky.
+
+00:41.900 --> 00:45.200
+Por ejemplo, editamos este registro y llamado tarea 1.
+
+00:45.830 --> 00:51.400
+Voy a colocar acá por ejemplo pan y queso porque se me olvidó o coloco aquí tarea punto 1.
+
+00:51.590 --> 00:52.310
+Además actualizar.
+
+00:52.670 --> 00:53.750
+Vas a ver que los cambios.
+
+00:54.860 --> 00:57.170
+Se efectúan directamente por acá nuestro listado.
+
+00:57.480 --> 00:59.240
+Nosotros aquí no estamos haciendo absolutamente nada.
+
+00:59.270 --> 01:03.710
+Simplemente tenemos aquí un String Builder conectados con nuestro patrón Blot, que implementamos aquí
+
+01:03.740 --> 01:06.380
+100 por ciento en 0 para que tome los cambios.
+
+01:06.650 --> 01:09.890
+Cada vez que nuestro notificaba lo mismos y nuestro notificamos lo mismo.
+
+01:09.920 --> 01:14.990
+Por ejemplo, cuando estamos eliminando así que lo tenemos, o cuando estamos editando un registro,
+
+01:15.320 --> 01:20.480
+inclusive cuando estamos creando un registro, siempre estamos notificando sobre cambios y por detrás
+
+01:20.840 --> 01:24.010
+se está actualizando el listado de todos los todos valga la redundancia.
+
+01:24.290 --> 01:28.430
+Y nuestro patrón de Blot está notificando estos cambios a nuestra paz en el estado.
+
+01:28.880 --> 01:33.500
+Por lo tanto, en esta aplicación puede tener tantas páginas como requiero para trabajar con los todos
+
+01:33.620 --> 01:39.440
+y todos los cambios que hagamos en los todos se van a ver reflejado en cualquier parte de nuestra aplicación.
+
+01:39.980 --> 01:42.350
+Todo esto y mucho más lo vas a hacer en esta sección.

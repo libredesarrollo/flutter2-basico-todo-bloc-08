@@ -1,0 +1,280 @@
+WEBVTT
+
+00:05.920 --> 00:10.330
+Ahora vamos a empezar la implementación con la creación y también actualización un poco más adelante
+
+00:10.330 --> 00:10.960
+de todos.
+
+00:11.140 --> 00:14.560
+Para eso vamos a necesitar una nueva página que viene siendo lo usual.
+
+00:14.590 --> 00:18.820
+Simplemente tenemos una página listado y tenemos otra página también para crear o actualizar, ya que
+
+00:18.820 --> 00:22.810
+van siendo apareciendo muy similares nuestros elementos, en este caso nuestros todos.
+
+00:23.470 --> 00:26.380
+Por tal motivo vamos a crear en este video lo que sería la estructura básica.
+
+00:27.310 --> 00:28.930
+Podemos cerrar todo esto perfectamente.
+
+00:29.020 --> 00:29.930
+Veremos a Kph.
+
+00:30.490 --> 00:36.540
+Vamos a elegir un clic y sería algo así como Seif con un nombre genérico para Inser you take patch.
+
+00:37.060 --> 00:37.330
+Punto.
+
+00:38.350 --> 00:41.950
+Recuerda que si tuvieras manejando más elementos, es decir, por ejemplo una administración de los
+
+00:41.950 --> 00:45.910
+todose, por ejemplo administración de los usuarios, perfectamente pudieras crear por aquí una carpeta
+
+00:45.910 --> 00:50.200
+llamada users o todos almacenas directamente las páginas que correspondan a esa entidad.
+
+00:51.070 --> 00:54.880
+Pero en este caso, como solamente nos interesa los todos, lo voy a arrojar aquí directamente.
+
+00:55.630 --> 01:02.380
+Hay que ser el usual import m de material y en este punto vamos a emplear un esteriles Willet recuerdaque
+
+01:02.380 --> 01:03.670
+que estamos empleando desde el Wyeth.
+
+01:04.660 --> 01:05.470
+Como pueden ver por acá.
+
+01:07.090 --> 01:13.450
+Así que colocamos state less vamos a llamarlo simplemente Seif Paige Skype.
+
+01:13.990 --> 01:17.410
+Quitamos esto y por aquí vamos a crear nuestra página.
+
+01:17.740 --> 01:18.490
+Colocamos el café.
+
+01:18.490 --> 01:26.750
+El café que no puede faltar porque sería Blackmount Lo normal de Hagbard de título.
+
+01:26.770 --> 01:34.410
+De momento más a colocar simplemente algo como Vertex que diga algo así como Seif todo.
+
+01:34.440 --> 01:36.050
+Luego podemos personalizarlo un poco más.
+
+01:36.890 --> 01:43.480
+Pero bueno, luego nos ocupamos de esto body seríe column para colocar múltiples elementos, pero encima
+
+01:43.540 --> 01:45.430
+con un yo quiero colocar lo que sería una carta.
+
+01:45.430 --> 01:47.230
+Así que coloco acá otro Wyeth, por ejemplo.
+
+01:47.230 --> 01:55.350
+Esto voy a colocar acá una cara y por acá va a colocar los children de que finalmente nuestros items,
+
+01:55.370 --> 01:56.900
+es decir los input.
+
+01:57.460 --> 02:01.750
+Ya en este punto recordemos que nosotros creamos un ICON personalizado, aunque perfectamente puede
+
+02:01.760 --> 02:02.830
+emplear el esquema clásico.
+
+02:02.950 --> 02:07.660
+Pero para hacerlo un poco más interesante y poder emplear o emplear código de secciones anteriores,
+
+02:07.720 --> 02:12.100
+voy a emplear justamente el Wye personalizado, el custom input que creamos anteriormente.
+
+02:12.880 --> 02:15.130
+Por aquí va a crear una carpeta llamada Wyeth.
+
+02:16.270 --> 02:17.260
+Voy a regresar por acá.
+
+02:17.440 --> 02:18.520
+Voy a abrir mi navegador.
+
+02:18.940 --> 02:21.580
+Voy a buscar aquí mi repository out, aunque perfectamente.
+
+02:21.580 --> 02:23.470
+También voy a buscar el proyecto local como tú quieras.
+
+02:24.340 --> 02:27.210
+Voy a buscar aquí la que dice componentes de la sección anterior.
+
+02:28.070 --> 02:33.820
+Por aquí sería Lib, la carpeta Willet y por aquí sería el llamado Custom TextView.
+
+02:33.850 --> 02:34.570
+Aquí lo tenemos.
+
+02:35.170 --> 02:36.190
+Voy a copiar este nombre.
+
+02:36.670 --> 02:39.040
+Voy a regresar acá en Willet.
+
+02:39.430 --> 02:40.360
+Voy a crear un archivo.
+
+02:41.710 --> 02:45.130
+Todor, aquí lo tenemos y voy a copiar todo el contenido.
+
+02:46.270 --> 02:51.880
+Todo esto lo copiamos y regresamos acá y lo pegamos, ya que lo tenemos y así aprovechamos el determinable
+
+02:51.880 --> 02:56.830
+implementación con lo que tenemos acá, ya que finalmente hemos hacerle un uso funcional y no simplemente
+
+02:56.830 --> 02:57.200
+visual.
+
+02:58.540 --> 03:00.970
+Así que ya con esto nosotros lo podemos emplear perfectamente por acá.
+
+03:01.630 --> 03:04.690
+Sería lo típico custom input.
+
+03:07.430 --> 03:09.950
+O custom text input.
+
+03:10.250 --> 03:13.800
+Ahora sí creo que lo encontré por aquí custom text field.
+
+03:14.060 --> 03:20.000
+La cuestión de culpaste le pasamos a exploits holders, es decir, el texto que aparece de fondo, que
+
+03:20.000 --> 03:21.410
+puede ser nombre o algo así.
+
+03:21.440 --> 03:27.560
+Qué sé yo, para el icono podemos colocarnos e icom oikos.
+
+03:27.560 --> 03:28.250
+Punto.
+
+03:28.250 --> 03:28.730
+Holis!
+
+03:29.240 --> 03:31.800
+No me voy a preocupar mucho por los iconos, ya que es cosa tuya.
+
+03:32.210 --> 03:33.530
+Esto debería ser todo por acá.
+
+03:33.980 --> 03:41.240
+Bueno, simplemente Nagata, ahora que me acuerdo y colocamos la coma, clonamos esto unas tres veces.
+
+03:41.720 --> 03:43.620
+Este sería para la expresión descripción.
+
+03:45.530 --> 03:47.990
+Voy a colocar algo así como descripción.
+
+03:49.670 --> 03:51.650
+Este sería para lo que sería.
+
+03:51.920 --> 03:52.580
+Se ha completado.
+
+03:52.580 --> 03:57.470
+No voy a colocar un check y voy a colocar aquí.
+
+03:57.500 --> 03:59.600
+Completado, completado.
+
+04:00.410 --> 04:05.630
+El último sería la prioridad que recuerda que viene siendo un valor numérico prioridad.
+
+04:06.440 --> 04:12.380
+Voy a colocar aquí simplemente humectar o algo por el estilo que estará si guardamos.
+
+04:14.060 --> 04:15.980
+Vamos a colocar acá un 6 box.
+
+04:19.050 --> 04:25.160
+Hay unos 15, por ejemplo, una coma por aquí lo coloco también por acá también.
+
+04:25.330 --> 04:26.200
+Y falta nuestro botón.
+
+04:26.490 --> 04:32.880
+Sería por ese gusto, por ejemplo, Reiser Button de la empresa que lo definimos.
+
+04:33.060 --> 04:34.110
+Voy a colocar por acá el Chile.
+
+04:36.360 --> 04:41.340
+Chim de que diga тех guardar.
+
+04:44.680 --> 04:51.730
+Por acá tenemos por colocar un todo, todo actualizado, ya que de momento más implementarlas crear
+
+04:52.870 --> 04:56.740
+para que quede pendiente y perfecto, vamos a crear acá la ruta.
+
+04:59.780 --> 05:10.880
+Cons string ceremo state también Be Routh va a ser igual a las seis punto y coma.
+
+05:11.360 --> 05:16.220
+Guardamos vamos al main contra el P main o como en P, aquí lo tenemos.
+
+05:16.490 --> 05:18.950
+Vamos a crear la ruta, clonamos acá.
+
+05:20.000 --> 05:26.580
+Este sería para Saif Feige también por acá y perfecto.
+
+05:27.530 --> 05:28.830
+Ahora vamos a ir a la de Luis.
+
+05:29.250 --> 05:32.930
+Aquí lo tenemos y vamos a implementar acá para el escafoides.
+
+05:34.800 --> 05:36.540
+Nuestro voy a colocarlo por acá.
+
+05:37.170 --> 05:38.970
+Float aquí, button que ya tu sabes como funciona.
+
+05:39.000 --> 05:49.770
+Finalmente ensamblarlo v chaim oleico icons punto ad hoc plus roquera plus garat.
+
+05:51.450 --> 06:00.600
+Por aquí definimos el empress de lo típico que viene siendo una billetero navigation con nombre punto
+
+06:01.560 --> 06:04.350
+punto por dios, punto push Laing.
+
+06:04.860 --> 06:15.000
+Le pasamos al contexto y aquí la ruta sería 6 Peih-Gee, Punto Routh, colocamos punti common y esto
+
+06:15.000 --> 06:15.600
+debería ser todo.
+
+06:15.660 --> 06:18.840
+Fue bastante trabajo, pero bueno, al menos la analógica inicial, la estructura inicial.
+
+06:19.590 --> 06:20.580
+Regresamos por acá.
+
+06:20.760 --> 06:24.390
+Voy a hacer ahora esto, yo ya este botón y aquí lo tenemos perfecto.
+
+06:26.010 --> 06:29.880
+Así que ya de momento terminamos el objetivo de este video, que era simplemente crear la lógica o la
+
+06:29.880 --> 06:33.480
+estructura inicial para la creación o actualización de los todos.

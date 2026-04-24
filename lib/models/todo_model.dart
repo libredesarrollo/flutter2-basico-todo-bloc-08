@@ -5,14 +5,14 @@ class Todo {
   String completeBy;
   int priority;
 
-  Todo(this.name, this.description, this.completeBy, this.priority): this.id=0;
+  Todo(this.name, this.description, this.completeBy, this.priority): id=0;
 
   Todo.empty()
-      : this.id = 0,
-        this.name = "",
-        this.description = "",
-        this.completeBy = "",
-        this.priority = 0;
+      : id = 0,
+        name = "",
+        description = "",
+        completeBy = "",
+        priority = 0;
 
   Map<String, dynamic> toMap() => {
         'name': name,

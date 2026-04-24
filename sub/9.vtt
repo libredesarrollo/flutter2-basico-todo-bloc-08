@@ -1,0 +1,163 @@
+WEBVTT
+
+00:06.170 --> 00:10.460
+Ahora bien, vamos a probar la operación de INSER y la operación de quedad que definimos por acá.
+
+00:11.240 --> 00:16.460
+Para eso estamos acá el main y vamos a hacerlo de acá, ya que como te comentaba, simplemente quiero
+
+00:16.460 --> 00:18.530
+probarlas para poder emplearnos un poco más adelante.
+
+00:19.190 --> 00:25.900
+Así que para eso, aquí con el todo debe vamos a acceder a simplemente crear un elemento donde V.
+
+00:26.900 --> 00:33.980
+Punto INSEN que reciben todo y por aquí lo vamos a pasar todo completamente genérico.
+
+00:34.550 --> 00:35.930
+Importábamos con control espacio.
+
+00:36.860 --> 00:38.240
+Y recuerda que no tenemos que pasar acá.
+
+00:38.240 --> 00:42.620
+El constructor sería simplemente el nombre, la descripción completada por la prioridad.
+
+00:44.270 --> 00:55.580
+Indicamos acá, por ejemplo todo tres coma, todo des des cripción coma prioridad, por ejemplo por
+
+00:55.580 --> 01:01.610
+mi coma y sería el siguiente sería el de.
+
+01:05.870 --> 01:06.440
+Prioridad.
+
+01:07.340 --> 01:09.890
+Colocamos un 1, por ejemplo, perfecto.
+
+01:10.310 --> 01:14.510
+Guardamos, vamos a recargar toda la aplicación y esperemos que no tengamos ningún error.
+
+01:15.410 --> 01:19.790
+Si esperamos un momento, la aplicación funciona correctamente.
+
+01:20.390 --> 01:22.160
+Vamos a recargar nuevamente para tener otro.
+
+01:22.460 --> 01:29.960
+Colocamos acá, por ejemplo, 1 3 y aquí por ejemplo, un 10, que se yo, recarga mutuamente y perfecto.
+
+01:30.800 --> 01:33.590
+Vamos a comentar esto en la siguiente operación que vamos a probar.
+
+01:33.590 --> 01:36.470
+Sería para saber si se insertó algo o no se sarto nada.
+
+01:37.100 --> 01:42.270
+Ya con esto por acá sería todo punto quetal puntocom.
+
+01:43.670 --> 01:50.150
+Ya con esto vamos a colocar en la web y lo guardamos directamente en un final quetodos que recuerda
+
+01:50.150 --> 01:55.440
+que realmente este final viene siendo un list de tipo top que puede ser un faenar.
+
+01:55.970 --> 02:00.140
+Voy a colocarle la firma aquí para que quede bien claro y por acá será el usual punto.
+
+02:00.470 --> 02:06.140
+Puede ser un for pues un foreach voy a emplear éste que tenemos en elemento, es decir, el todo va
+
+02:06.140 --> 02:08.750
+a colocarle T y lo imprimimos al menos de momento.
+
+02:09.980 --> 02:14.370
+Voy a colocar aquí Primm para probar finalmente todo lo que hicimos de T.
+
+02:14.900 --> 02:18.980
+Bueno, todo esto de ta ta ta, ta, ta te.
+
+02:19.580 --> 02:22.220
+Punto, punto, punto adentro.
+
+02:22.280 --> 02:22.700
+Perdón.
+
+02:23.060 --> 02:23.640
+Punto neng.
+
+02:24.320 --> 02:25.310
+Y lo mismo para el resto.
+
+02:26.570 --> 02:27.050
+Por acá.
+
+02:29.280 --> 02:30.380
+Descripción
+
+02:33.050 --> 02:37.760
+por acá sería el de Peyman o algo así que lo colocamos.
+
+02:37.770 --> 02:38.210
+Se me olvidó.
+
+02:39.440 --> 02:41.390
+Le colocamos cumplirte Veidt.
+
+02:43.980 --> 02:44.880
+Y también otro.
+
+02:45.720 --> 02:46.710
+Voy a copiar esto.
+
+02:48.900 --> 02:52.410
+Qué sería el de Priority junto a toString?
+
+02:53.940 --> 02:55.700
+Y también va a querer imprimir LVII.
+
+02:56.190 --> 02:56.760
+Obviamente.
+
+02:58.260 --> 03:00.880
+Coloco aquí IVI punto tu stream.
+
+03:01.530 --> 03:05.930
+Coloca el punto como acordamos o a recargar todo y esperémoslo mejor.
+
+03:07.350 --> 03:08.100
+Mira, aquí lo tenemos.
+
+03:08.100 --> 03:09.150
+Funcionó toda la primera.
+
+03:09.180 --> 03:09.900
+Perfecto.
+
+03:10.260 --> 03:11.090
+Aquí tenemos a Lévy.
+
+03:11.190 --> 03:12.000
+Uno, dos, tres.
+
+03:12.030 --> 03:12.930
+Porque queremos tres.
+
+03:13.590 --> 03:15.000
+Esto viene siendo exactamente lo mismos.
+
+03:15.000 --> 03:15.390
+Y por aquí.
+
+03:15.390 --> 03:19.980
+Recordemos que en mi caso particular, simplemente varié el título y la descripción para el siguiente
+
+03:19.980 --> 03:24.660
+elemento, el que tenemos toda la data completamente correcta.
+
+03:26.100 --> 03:32.790
+Este viene siendo el título, este inicio de la descripción, este viene siendo el de compli bit y finalmente
+
+03:32.790 --> 03:34.980
+por aquí tenemos la prioridad y obviamente Leidy.

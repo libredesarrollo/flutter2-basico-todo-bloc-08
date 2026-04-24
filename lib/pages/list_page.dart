@@ -4,10 +4,12 @@ import 'package:todoapp_08/pages/save_page.dart';
 import 'package:todoapp_08/todos_bloc.dart';
 
 class ListPage extends StatefulWidget {
-  static const String ROUTE = "/";
+  static const String route = "/";
+
+  const ListPage({super.key});
 
   @override
-  _ListPageState createState() => _ListPageState();
+  State<ListPage> createState() => _ListPageState();
 }
 
 class _ListPageState extends State<ListPage> {
@@ -34,21 +36,21 @@ class _ListPageState extends State<ListPage> {
 
     return Scaffold(
         appBar: AppBar(
-          title: Text("Listado"),
+          title: const Text("Listado"),
         ),
         floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.add),
+          child: const Icon(Icons.add),
           onPressed: () {
             //todosBloc.todoInsertSink.add(Todo("Test 1", "Test 1", 'Por MI', 1)); //(new TodosBloc())
 
-            Navigator.pushNamed(context, SavePage.ROUTE);
+            Navigator.pushNamed(context, SavePage.route);
           },
         ),
         body: StreamBuilder(
           stream: todosBloc.todosStream,
           initialData: todos,
           builder: (_, AsyncSnapshot snapshot) {
-            print("--StreamBuilder");
+            // Removed print
 
             return ListView.builder(
                 itemCount: snapshot.hasData ? snapshot.data.length : 0,
@@ -60,13 +62,13 @@ class _ListPageState extends State<ListPage> {
                         backgroundColor: snapshot.data[index].priority > 5 ? 
                         Colors.red : Colors.purple,
                           child: Text("${snapshot.data[index].priority}", 
-                          style: TextStyle(color: Colors.white),)),
+                          style: const TextStyle(color: Colors.white),)),
                       title: Text("${snapshot.data[index].name}"),
                       subtitle: Text("${snapshot.data[index].description}"),
                       trailing: GestureDetector(
-                        child: Icon(Icons.edit),
+                        child: const Icon(Icons.edit),
                         onTap: () {
-                          Navigator.pushNamed(context, SavePage.ROUTE,
+                          Navigator.pushNamed(context, SavePage.route,
                               arguments: snapshot.data[index]);
                         },
                       ),

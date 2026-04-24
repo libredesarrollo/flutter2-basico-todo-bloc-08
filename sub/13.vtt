@@ -1,0 +1,430 @@
+WEBVTT
+
+00:06.360 --> 00:08.310
+Ahora vamos a empezar agregando una lógica.
+
+00:08.610 --> 00:13.350
+Básicamente viene siendo métodos tipo CRUD para indicar que si queremos obtener todos los registros,
+
+00:13.740 --> 00:18.420
+si queremos borrarlo, si queremos factorizar, si queremos insertar, sería básicamente eso.
+
+00:18.780 --> 00:22.440
+Por supuesto, finalmente también crear el constructor para verle un poquito el sentido a todo esto.
+
+00:23.130 --> 00:25.200
+Vamos a empezar el primer método.
+
+00:25.350 --> 00:29.130
+Va a ser un filtro que sería para obtener todos los registros.
+
+00:29.240 --> 00:33.780
+Va a llamar simplemente que tal y realmente va a ser también empleado bastante melar interna.
+
+00:33.810 --> 00:40.020
+Cada vez que realicemos una operación, simplemente refrescar el estado, ya que, por ejemplo, eliminamos
+
+00:40.020 --> 00:42.870
+un registro, vamos a querer nuevamente obtener todos los registros.
+
+00:43.260 --> 00:48.300
+Lo que vamos a hacer aquí sería simplemente finalmente devolver los datos para nuestro listado llamado
+
+00:48.300 --> 00:48.860
+Toles.
+
+00:49.200 --> 00:53.280
+Quiere que nosotros finalmente mosso consumir en la aplicación como tal.
+
+00:53.520 --> 00:57.600
+Por ejemplo, cuando queramos crear la tabla el listado, vamos a ello.
+
+00:58.080 --> 01:01.290
+Lo que vamos a hacer aquí sería simplemente crear una variable local.
+
+01:01.380 --> 01:02.970
+Voy a llamarlo simplemente todo.
+
+01:03.880 --> 01:07.370
+Todo va a ser igual a una Waid Bek.
+
+01:07.770 --> 01:13.130
+Recordemos que para obtener todos los registros hacemos simplemente de B punto que al.
+
+01:14.910 --> 01:16.380
+Aquí tenemos todos los registros.
+
+01:16.920 --> 01:17.880
+Qué vamos a hacer con esto?
+
+01:18.000 --> 01:23.070
+Simplemente guardarlo y todo les va a ser igual a todos.
+
+01:25.680 --> 01:28.290
+Recuerda que este Toothless viene siendo el que tenemos por acá arriba.
+
+01:29.550 --> 01:33.790
+Colocamos un Putty, cómo me falta una S.
+
+01:34.860 --> 01:35.460
+Y perfecto.
+
+01:36.510 --> 01:41.130
+Aquí nosotros tenemos que hacer algo que sería notificarnos cambios, porque justamente en este punto
+
+01:41.130 --> 01:42.540
+nosotros tenemos nueva data.
+
+01:43.290 --> 01:49.440
+Por lo tanto, para eso fue que creamos el SIM que tenemos acá, justamente para notificar que tenemos
+
+01:49.440 --> 01:49.950
+datos.
+
+01:53.010 --> 01:55.340
+Porque aquí le estamos inyectando, estamos inyectando los datos.
+
+01:55.470 --> 01:59.670
+La estamos pasando datos, así que puede parecer algo confuso, pero vale un poquito la lógica.
+
+01:59.670 --> 02:04.500
+Aquí nuevamente te repito, estamos indicando que tenemos datos, que tenemos básicamente un listado
+
+02:04.500 --> 02:08.790
+de todos, el listado inicial de todos, ya que recuerda que por defecto esto se encuentra definido
+
+02:08.790 --> 02:09.310
+como nulo.
+
+02:09.810 --> 02:14.070
+De que estamos obteniendo los datos y lo tenemos que invocar de alguna manera, solo tenemos que enviar
+
+02:14.070 --> 02:14.550
+el evento.
+
+02:15.090 --> 02:19.160
+Para eso sería simplemente emplear el GET que definimos por acá, que perfectamente podemos crearlo
+
+02:19.170 --> 02:28.470
+o podemos emplearla de manera interna y sería hacer lo siguiente todo al decir punto AT indicamos que
+
+02:28.470 --> 02:33.360
+agregamos todos qué serían los datos que notificamos por acá.
+
+02:33.600 --> 02:36.450
+Recuerda que básicamente lo que tenemos por acá es independiente a los eventos.
+
+02:36.930 --> 02:41.160
+Por lo tanto es que estamos indicando que mira, tenemos nuevos datos, vienen siendo los todos que
+
+02:41.160 --> 02:43.890
+tenemos o conseguimos en la base de datos los estados iniciales.
+
+02:44.190 --> 02:49.650
+Como te indicaba, este método viene siendo crucial porque hemos invocarlo múltiples veces según las
+
+02:49.650 --> 02:51.270
+operaciones que vayamos a realizar.
+
+02:51.510 --> 02:55.180
+Si borramos un elemento, tenemos que refrescar todos los todos, así que tenemos que llamar a este
+
+02:55.180 --> 02:55.560
+listado.
+
+02:56.040 --> 02:59.400
+Mismo actualizamos un elemento o simplemente insertamos un elemento.
+
+03:00.360 --> 03:02.010
+Vamos a crear el resto de las operaciones.
+
+03:02.340 --> 03:06.800
+También vamos a necesitar una operación que simplemente nos permita obtener todos los registros, ya
+
+03:06.870 --> 03:08.520
+sean así de básicamente.
+
+03:08.520 --> 03:12.630
+Hacer estas operaciones viene siendo algo similar a esto, pero si la conexión como tal.
+
+03:12.840 --> 03:16.730
+Así que por acá, digamos Liz ve todo.
+
+03:18.480 --> 03:26.550
+Voy a llamarlo simplemente como retorne al indicándoles todos los retornamos aquí hace Casella.
+
+03:28.770 --> 03:32.640
+Vamos a emplear o vamos a definir lo que sería los métodos finalmente de manipulación de datos.
+
+03:32.850 --> 03:41.490
+Aparte de que ya tenemos por acá el llamado que vamos a comenzar con el debilitas void Delight, indicamos
+
+03:41.490 --> 03:47.490
+cual todo queremos borrar todo de todo y por acá la operación de punto delete.
+
+03:48.450 --> 03:54.240
+Le pasamos el todo y esto recuerda que viene siendo feucho, que no podemos solventarse directamente
+
+03:54.240 --> 03:56.640
+con una wait o también como si fuera una promesa.
+
+03:56.760 --> 04:00.630
+Colocamos un punto Voigt Voy a hacerlo mediante una promesa para que todo esto quede un poquito más
+
+04:00.630 --> 04:00.930
+claro.
+
+04:01.860 --> 04:06.360
+Luego podemos experimentar un poco con todo esto para ver qué tal funciona, pero al menos de momento,
+
+04:06.360 --> 04:09.210
+recordemos que aquí tenemos el resultado, que viene siendo un filtro.
+
+04:09.300 --> 04:10.380
+Bueno, realmente no tenemos nada.
+
+04:10.620 --> 04:11.940
+Así que podemos prescindir de esto.
+
+04:12.570 --> 04:17.910
+Y por acá colocamos simplemente get all para nuevamente refrescar el estado y listo.
+
+04:19.170 --> 04:21.420
+Lo mismo tenemos que hacer en el resto de las operaciones.
+
+04:21.930 --> 04:22.800
+Voy a clonar acá.
+
+04:23.250 --> 04:24.930
+La siguiente sería Tultepec.
+
+04:25.530 --> 04:26.340
+Recibimos el todo.
+
+04:26.370 --> 04:30.900
+Llamamos a Volteate con el todo que queremos actualizar.
+
+04:31.020 --> 04:31.650
+Y sería todo.
+
+04:32.640 --> 04:34.800
+La siguiente sería la de insertar.
+
+04:35.250 --> 04:38.250
+Llamamos, piensan nuamente recibimos un todo.
+
+04:38.340 --> 04:39.480
+El todo que queremos crear.
+
+04:41.580 --> 04:42.960
+Lo insertamos, llamamos insert.
+
+04:44.310 --> 04:49.350
+Insertamos el todo y nuevamente llamamos a que para actualizar todo el estado esto serían básicamente
+
+04:49.350 --> 04:53.550
+las operaciones tipo CRUD que queremos realizar nuamente.
+
+04:53.550 --> 04:57.360
+Te repito, cuando nos conectemos todo esto vamos a verle sentido un poquito más a todo esto, pero
+
+04:57.360 --> 05:00.240
+yo creo que al menos queda bastante claro que lo que está realizando cada operación.
+
+05:00.600 --> 05:05.010
+Aquí tenemos una lógica de negocios que viene siendo la fusión, es que definimos por acá.
+
+05:05.910 --> 05:10.620
+Ahora bien, obviamente recuerda que nosotros vamos a crear una instancia de esta clase, todo comienza
+
+05:10.620 --> 05:11.880
+creando un instancia de esta clase.
+
+05:12.450 --> 05:16.890
+Por lo tanto, vamos a definir el constructor qué tiene que tener el mismo nombre de la clase.
+
+05:16.920 --> 05:18.270
+Obviamente, ya tú sabes cómo es esto.
+
+05:18.990 --> 05:27.480
+Voy a colocarlo justamente luego de todo esto por acá todo blot o todos blot iba a ser simplemente lo
+
+05:27.480 --> 05:32.820
+primero sería simplemente definir la data que tenemos acá, la base de datos y también en todo, darle
+
+05:32.820 --> 05:33.540
+el enfoque inicial.
+
+05:34.440 --> 05:38.700
+Así que por se me olvidó o se me perdió, así que lo tenemos de B.
+
+05:38.940 --> 05:45.060
+Va a ser igual a todo de B y el siguiente sería para inicializar nuestro listado.
+
+05:45.090 --> 05:49.950
+Para eso presionamos, o mejor dicho, invocamos a la función llamada Quetal de manera inicial para
+
+05:49.950 --> 05:55.320
+tener los todos iniciales y notificar los cambios que por supuesto estos cambios nosotros aquí tenemos
+
+05:55.320 --> 05:56.400
+que definir los listener.
+
+05:59.520 --> 06:05.700
+Así que colocamos por acá todos, bueno, todos con el bajo.
+
+06:07.530 --> 06:07.960
+String.
+
+06:09.120 --> 06:09.780
+Controller.
+
+06:10.260 --> 06:11.240
+Punto String.
+
+06:12.810 --> 06:20.190
+Punto Liste y le pasamos básicamente la función que queremos escuchar va a quitar todo esto.
+
+06:22.860 --> 06:28.290
+Y fíjate que esto recibe simplemente una función, un like, todo y que tenemos por acá, que igual
+
+06:28.330 --> 06:28.860
+oblige todo.
+
+06:29.190 --> 06:30.340
+Justamente la función llamada.
+
+06:30.810 --> 06:34.980
+Así que le indicamos por acá para escuchar los cambios de esta función.
+
+06:37.890 --> 06:43.170
+Y lo mismo con el resto, porque sería para, por ejemplo, la de vencer.
+
+06:43.350 --> 06:44.460
+Sería exactamente lo mismo.
+
+06:46.450 --> 06:47.610
+Le indicamos por acá insert.
+
+06:51.050 --> 06:56.120
+Sin esto, qué nuamente, fíjate que el tipo de estructura que estamos manejando en este punto sería
+
+06:56.120 --> 06:56.880
+simplemente un todo.
+
+06:57.380 --> 07:00.620
+Y aquí la estamos manejando simplemente un todo y listo.
+
+07:00.620 --> 07:01.640
+No acepta perfectamente.
+
+07:02.030 --> 07:02.900
+Lo mismo con el resto.
+
+07:02.960 --> 07:07.280
+Colocamos un toit por acá y por acá.
+
+07:11.660 --> 07:15.980
+Porque sería billet y porque también sería delito.
+
+07:17.090 --> 07:22.160
+Y ya con esto creamos, el constructor recuerda que esto es para registrar los escuchadores, los escuchadores,
+
+07:22.160 --> 07:27.320
+que nosotros vamos a invocar mediante logares que creamos por acá y que se van a encargar internamente
+
+07:27.320 --> 07:28.820
+llamar a la función que indiquemos por acá.
+
+07:29.360 --> 07:33.200
+Por lo tanto, cuando nosotros queramos, por ejemplo, actualizar un registro que vamos a llamar a
+
+07:33.200 --> 07:37.640
+este escuchador que tenemos acá, internamente se va a llamar a que tengamos configurado por acá.
+
+07:37.790 --> 07:43.070
+Por ejemplo, aquí sería aquí tenemos que colocar por cierto, los string controles correspondientes
+
+07:43.070 --> 07:44.720
+para el escuchador que estamos creando en este punto.
+
+07:44.720 --> 07:45.070
+Desculpa.
+
+07:45.260 --> 07:49.070
+Pero recuerda que también la etiqueta de que no cambiamos esto en un anterior video.
+
+07:49.700 --> 07:54.950
+Finalmente se van a llamar Losing que registramos por acá mediante los controladores que tenemos acá,
+
+07:55.760 --> 08:00.170
+que recuerda que están hackeados a unos listГіn que estamos indicando por acá con las funciones que
+
+08:00.170 --> 08:04.340
+realmente son las que procesa nuestra lógica negocies para insertar, actualizar, borrar y todo esto
+
+08:04.340 --> 08:09.680
+simplemente tenés que sumar mámente la función que estamos mapeando por acá para elit tener al componente
+
+08:09.680 --> 08:14.240
+controlador que tenemos acá y que finalmente este controlador lo estamos empleando para definir Hoggett,
+
+08:14.330 --> 08:18.530
+que son lo que nosotros vamos a emplear para consumir todo esto desde afuera, es decir, desde la aplicación
+
+08:18.530 --> 08:20.630
+como tal, es decir, desde nuestras pailas.
+
+08:20.720 --> 08:22.400
+Viene siendo esa básicamente la lógica.
+
+08:23.000 --> 08:27.770
+También recuerda que cada vez que veas un listen siempre tiene que estar acompañado de un dispose.
+
+08:28.190 --> 08:34.490
+Por lo tanto, al final de todo, también vamos a crear otra función llamada el Spassky Void Spassky.
+
+08:34.650 --> 08:39.380
+Aquí la tenemos, que simplemente se va a encargar de indicar que ya no queremos escuchar nada más.
+
+08:39.410 --> 08:39.990
+Ya todo terminó.
+
+08:40.010 --> 08:40.640
+Todo el mundo feliz.
+
+08:40.670 --> 08:42.980
+Por lo tanto, lo hacemos todos.
+
+08:43.850 --> 08:45.130
+En control el punto Clouds.
+
+08:46.910 --> 08:48.200
+Y lo mismo para el resto de los casos.
+
+08:49.040 --> 08:50.550
+Todo ser controlable.
+
+08:50.630 --> 08:56.240
+Punto Closs y todo Update Controller.
+
+08:56.750 --> 08:57.530
+Punto Clouds.
+
+08:58.370 --> 09:02.600
+Finalmente el todo dilly controller.
+
+09:02.810 --> 09:03.620
+Punto Close.
+
+09:04.820 --> 09:05.030
+Ella.
+
+09:05.030 --> 09:05.940
+Con esto estamos listos.
+
+09:06.260 --> 09:11.780
+Básicamente ya con este terminamos la implementación de nuestro todo plot y con esto ya podemos empezar
+
+09:12.080 --> 09:14.690
+la conexión con este componente que creamos acá.

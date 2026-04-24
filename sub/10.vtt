@@ -1,0 +1,238 @@
+WEBVTT
+
+00:06.060 --> 00:10.020
+Ahora vamos a ir con las operaciones tanto de eliminar como de actualizar un todo.
+
+00:10.500 --> 00:15.030
+Para esto recordemos que ya tenemos la de Insert y también la de Quetal para obtener todos los todos.
+
+00:15.930 --> 00:18.450
+Y recuerda que también estas funciones van a volver a un feucho.
+
+00:18.480 --> 00:18.870
+Por qué?
+
+00:19.050 --> 00:23.670
+Porque siempre que hacemos operaciones de este estilo con el todos y específicamente la base de datos,
+
+00:23.970 --> 00:25.780
+estos siempre son operaciones de tipo asíncronas.
+
+00:25.800 --> 00:30.090
+Por lo tanto, siempre vamos a tener aquí la web y por supuesto el filtro para esperar a que esta función
+
+00:30.090 --> 00:31.050
+se termina de ejecutar.
+
+00:32.040 --> 00:36.000
+También recordemos que todas, todas estas operaciones requieren de todos, que viene siendo la tabla,
+
+00:36.000 --> 00:40.230
+viene siendo la carpeta como tú, lo que hará llamar para almacenar nuestros todos.
+
+00:40.470 --> 00:43.570
+Si tú quieres almacenar otra cosa, por ejemplo usuarios, categorías, etcétera.
+
+00:43.950 --> 00:46.020
+Simplemente por acá tuvieras que crear otro todo.
+
+00:46.140 --> 00:48.300
+Pero en este caso simplemente estamos manejando un todo.
+
+00:49.020 --> 00:53.220
+Así que de hecho vamos a crear la primera función o la siguiente función que como te comentaba, esto
+
+00:53.220 --> 00:56.760
+tiene que devolver un fichero por el tipo operación que va a realizar.
+
+00:57.420 --> 00:58.600
+Se va a llamar simplemente Blyth.
+
+00:58.620 --> 01:03.510
+En la primera operación que vamos a trabajar y por aquí tenemos que recibir algo, qué carrizo tenemos
+
+01:03.510 --> 01:04.080
+que recibir?
+
+01:04.770 --> 01:07.510
+Puede ser simplemente el identificador, que ya sabes que lo tienes por acá.
+
+01:08.100 --> 01:09.480
+O puede ser perfectamente el todo.
+
+01:09.600 --> 01:14.700
+Yo lo veo mejor indicando directamente el todo para que todo esto quede más homogéneo, porque por ejemplo,
+
+01:14.700 --> 01:16.620
+aquí estamos haciendo del todo, del todo que queremos insertar.
+
+01:16.920 --> 01:21.000
+Y por supuesto, también vas a recibir el todo que queremos actualizar un poco más adelante para la
+
+01:21.000 --> 01:21.630
+siguiente función.
+
+01:22.380 --> 01:25.260
+Por lo tanto, por aquí va a colocar directamente el todo que quiero eliminar.
+
+01:26.310 --> 01:30.180
+Y todo queda más limpio y también más seguro, porque por aquí si le pasamos algún nulo, obviamente
+
+01:30.180 --> 01:31.260
+va a dar un error, un problema.
+
+01:32.520 --> 01:36.210
+La operación viene siendo similar, simplemente una Waite por los mencionados anteriormente.
+
+01:36.210 --> 01:37.640
+Vamos a conectarnos a la base de datos.
+
+01:37.650 --> 01:37.980
+Con qué?
+
+01:38.340 --> 01:42.600
+Con nuestro todos en la carpeta como lo quiera ver y por aquí.
+
+01:42.600 --> 01:44.820
+Recordemos que tenemos varias operaciones, todas éstas.
+
+01:45.210 --> 01:49.650
+Tu puedes ir a la documentación oficial para ver más detalle, pero la que necesitamos en este punto
+
+01:49.650 --> 01:52.800
+sería justamente la debilidad por el tipo operación que queremos hacer.
+
+01:53.250 --> 02:00.700
+Espere cliente que sería simplemente el de data béis da esta.
+
+02:00.810 --> 02:01.110
+Veis?
+
+02:01.110 --> 02:04.140
+Aquí lo tenemos y por aquí también podemos pasarle otro parámetro.
+
+02:04.470 --> 02:05.580
+Cuál sería el otro parámetro?
+
+02:05.640 --> 02:10.110
+Si lo hacemos así, seguramente va eliminar todos los todos que tengamos en la base de datos, pero
+
+02:10.110 --> 02:10.890
+no lo que queremos.
+
+02:11.340 --> 02:15.300
+Por lo tanto, tenemos que indicar una especie de filtro y cómo nosotros podemos hacer esta especie
+
+02:15.300 --> 02:18.130
+de filtro simplemente indicando algo llamado Finder.
+
+02:18.660 --> 02:22.680
+Nuevamente puedes referirte a la documentación oficial, pero es un mecanismo que no permite filtrar.
+
+02:22.800 --> 02:23.580
+Es bastante potente.
+
+02:23.580 --> 02:27.600
+Como puedes revisar un poco, puedes hacer expresiones regulares, buscar directamente por un campo
+
+02:27.870 --> 02:30.630
+y en este caso sería también buscar por aquí qué es lo que le interesa.
+
+02:31.590 --> 02:32.900
+Así que vamos a crear este Finder.
+
+02:33.180 --> 02:35.520
+Sería de tipo fino, obviamente, porque no lo vamos a variar.
+
+02:36.090 --> 02:40.440
+Voy a llamarlo simplemente Finder por convención, porque la clase en cuestión se llama simplemente
+
+02:40.440 --> 02:44.330
+como Finder y por aquí reciben los filtros tal cual puede ver por acá.
+
+02:44.760 --> 02:48.240
+Pero por ejemplo, si quisieras peinar ejemplar, recoger el oshe y también el límite.
+
+02:49.380 --> 02:53.040
+Pero en nuestro caso nos interesa el filtro y por aquí directamente filtrar.
+
+02:53.070 --> 02:58.710
+Como puede suponer esto recibe simplemente un filtro que lo que no estoy indicando por acá y por acá,
+
+02:58.740 --> 03:00.990
+qué carrizo queremos filtrar por aquí?
+
+03:00.990 --> 03:06.060
+Podríamos pasar algunos argumentos, pero lo que nos interesa sería emplear una clase en particular
+
+03:06.330 --> 03:10.920
+o un método en particular llamado Vikki, que nos permite directamente pasarle aquí del elemento que
+
+03:10.920 --> 03:11.640
+queremos buscar.
+
+03:11.960 --> 03:15.780
+Todo punto de vista que recuerda que ALADI es un elemento que no se va a repetir.
+
+03:16.560 --> 03:20.850
+Por lo tanto, siempre vamos a estar seguro de que nos va a devolver simplemente un elemento y por aquí
+
+03:21.090 --> 03:24.360
+pasamos directamente el Finder y esto sería prácticamente todo.
+
+03:24.990 --> 03:30.270
+Pero esto viene siendo un argumento con nombre, así que colocamos Fiddler de Finder y esto sería todo
+
+03:30.270 --> 03:30.630
+por acá.
+
+03:31.260 --> 03:32.820
+Colocamos el así, por supuesto.
+
+03:33.300 --> 03:38.220
+Y ahora, si la siguiente operación que vamos a crear sería la actualización, que como puedes suponer,
+
+03:38.220 --> 03:39.270
+sería bastante similar a esto.
+
+03:39.270 --> 03:41.040
+Así que vamos a clonar rápidamente.
+
+03:41.040 --> 03:45.630
+Sería crear nuevamente el Finder del elemento que queremos evitar, pero en este caso no nos interesa
+
+03:45.630 --> 03:46.180
+eliminarlo.
+
+03:46.530 --> 03:51.510
+Colocamos un Taipeh que nuevamente va a recibir el todo que queremos editar y por aquí tenemos que colocar
+
+03:51.510 --> 03:57.550
+lo que sería el BUTT-HEAD que usualmente recibe el cliente la base de datos cliente y por aquí el valor.
+
+03:57.580 --> 04:01.380
+Los nuevos cambios que nosotros queremos reflejar, que serán simplemente los cambios que se encuentran
+
+04:01.380 --> 04:04.680
+aquí en el todo punto tomar.
+
+04:07.620 --> 04:09.270
+Y esto sería prácticamente todo por acá.
+
+04:09.360 --> 04:14.400
+Pero por supuesto, si así va actualizar todos los todos que tengamos en la base de datos y no es lo
+
+04:14.400 --> 04:14.830
+que queremos.
+
+04:14.880 --> 04:18.690
+Para eso definimos para que el Finder para indicarle aquí el elemento que queremos editar.
+
+04:19.110 --> 04:21.330
+Por lo tanto, por acá colocamos como Finder.
+
+04:23.170 --> 04:29.260
+De Finder, listo, ya con esto terminamos la operación de del hip hip hop Thai que vamos a probar en
+
+04:29.260 --> 04:30.190
+el siguiente video.

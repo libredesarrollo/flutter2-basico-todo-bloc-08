@@ -1,0 +1,139 @@
+WEBVTT
+
+00:05.650 --> 00:09.550
+Bien, perfecto, vamos a empezar a crear el esqueleto, la app siempre o todo tipo de cruz.
+
+00:09.610 --> 00:11.470
+Como pudiste ver en la introducción de la sección.
+
+00:11.860 --> 00:13.270
+Todo comienza con un listado.
+
+00:13.330 --> 00:14.590
+Así que vamos a crear esa página.
+
+00:15.400 --> 00:24.250
+Por aquí vamos a crear una nueva carpeta llamada Beyes y una página llamada Liz Ph.D, que lo tenemos.
+
+00:25.120 --> 00:26.590
+Hacemos el M de material.
+
+00:27.490 --> 00:31.870
+Esto viene siendo el usual, así que voy un poco rápido para que ser el esteriles Wyeth al menos de
+
+00:31.870 --> 00:35.950
+momento hay que colocamos list es clave.
+
+00:36.190 --> 00:36.880
+Quitamos esto.
+
+00:38.260 --> 00:39.780
+Y por qué vas a colocar nuestro cafo?
+
+00:40.840 --> 00:41.710
+Voy a quitar todo esto.
+
+00:41.870 --> 00:43.120
+Escribimos simplemente es cafo.
+
+00:44.140 --> 00:45.370
+Es cafo por Dios.
+
+00:45.540 --> 00:46.180
+Ve Álvaro.
+
+00:48.390 --> 00:59.430
+Embaro colocamos el titón a itel de un texto que diga el estado que soy yo y por aquí vamos a colocar
+
+00:59.430 --> 01:14.850
+el Bobby B, por ejemplo Les View de un Liz bueno children children, nules time que diga por ejemplo
+
+01:16.710 --> 01:18.890
+Titón, Bet tex.
+
+01:21.030 --> 01:26.560
+Item un espacio con un par de veces coloca una coma por acá, por acá.
+
+01:26.580 --> 01:30.990
+Aquí coloco por ejemplo 1, por aquí 2 y por aquí el punto y coma.
+
+01:32.280 --> 01:36.930
+Vamos a crear la ruta Static Koss.
+
+01:37.980 --> 01:42.130
+String Routh va a ser iguala el index.
+
+01:43.290 --> 01:43.870
+La coloco así.
+
+01:43.890 --> 01:44.670
+Regresamos acá.
+
+01:45.270 --> 01:51.690
+Vamos a quitar toda la clase que tenemos acá, hasta por acá abajo, que lo tenemos por aquí.
+
+01:51.690 --> 01:52.830
+También voy a quitar todo esto.
+
+01:53.190 --> 01:54.210
+Luego nos encargamos del tema.
+
+01:55.290 --> 02:01.370
+Por aquí voy a colocar también todo app porque sería el Routh.
+
+02:02.970 --> 02:03.390
+El mapa.
+
+02:04.050 --> 02:06.570
+Veo básicamente Liz Page.
+
+02:06.960 --> 02:07.500
+Punto.
+
+02:07.770 --> 02:12.140
+Routh va a ser simplemente nuestra función por acá.
+
+02:12.720 --> 02:13.410
+Función de flecha.
+
+02:14.100 --> 02:18.010
+Aquí lo tenemos y simplemente sería la página que queremos devolver.
+
+02:20.160 --> 02:26.400
+Indicamos un bien es el rol de básicamente la ruta inicial, que viene siendo justamente la del punto
+
+02:26.400 --> 02:27.160
+rojo que tenemos acá.
+
+02:28.020 --> 02:32.460
+Guardamos, vamos a ejecutar la aplicación, le pegamos en F5, le damos por aquí o simplemente la opción
+
+02:32.460 --> 02:34.400
+de Run y la acción de estar de Booking.
+
+02:34.830 --> 02:35.370
+Qué tenemos acá?
+
+02:35.580 --> 02:39.810
+Cualquier cosa para iniciar la bendita aplicación y saber que está funcionando correctamente.
+
+02:40.290 --> 02:46.020
+Así que simplemente tenemos que venir aquí en nuestro emulador por acá y esperar a que termine el proceso
+
+02:46.800 --> 02:49.170
+de generación de aplicación, compilado e instalación.
+
+02:49.380 --> 02:55.890
+Finalmente, en el dispositivo móvil que tenemos aquí seleccionado, esperamos un momento y Walhalla
+
+02:55.890 --> 02:56.730
+por porque lo tenemos.
+
+02:57.300 --> 03:00.000
+Si esperamos un mántica más, vas a ver que por aquí tenemos nuestro listado.
+
+03:00.240 --> 03:00.960
+Aquí los foton tres.
+
+03:01.020 --> 03:06.750
+Voy a colocar aquí rápidamente un tres y ya con esto estamos listos.

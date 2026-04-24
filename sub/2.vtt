@@ -1,0 +1,277 @@
+WEBVTT
+
+00:05.180 --> 00:10.550
+A qué quería conversar un poco sobre los posibles cambios que tiene que realizar para adaptaran un 6T?
+
+00:10.940 --> 00:15.860
+Nuevamente existen múltiples formas a lo mismo, pero yo te voy a enseñar la que sería mi solución según
+
+00:15.860 --> 00:18.560
+los conocimientos que obtuvimos anteriormente.
+
+00:19.040 --> 00:24.440
+Lo primero es que cada vez que tú vas a una clase por acá, hay que tú tienes que determinar en cuanto
+
+00:24.440 --> 00:26.780
+a las propiedades cuando vas a inicializar las mismas.
+
+00:27.050 --> 00:32.570
+Si tú sabes que en nuestro caso que antes de preguntar por la misma vamos a usarla, automáticamente
+
+00:32.570 --> 00:34.880
+lo colocamos un lait tal cual hacemos.
+
+00:35.330 --> 00:40.720
+Por lo tanto, nosotros sabemos que por ejemplo, los conductores que tenemos por acá vamos a buscar
+
+00:40.720 --> 00:46.200
+o que tenemos el de la base datos tiene que tener un lait porque si no te va a chillar.
+
+00:47.990 --> 00:54.110
+Algunos constructores como pudiera, pero justamente por caer en la tentación que vamos a crear, esto
+
+00:54.110 --> 00:54.980
+viene siendo conductor.
+
+00:55.010 --> 00:58.040
+No te preocupes por esto, lo vemos en detalle en este curso.
+
+00:58.050 --> 01:02.390
+Lo que yo quiero sería que entiendas que esto es un conductor que vamos a emplear y por aquí, como
+
+01:02.390 --> 01:07.160
+lo estamos inicializado, tenemos que indicarle por aquí a fuerzas Sunlight, ya que nuevamente se va
+
+01:07.160 --> 01:12.950
+a cumplir la regla en la cual te indico que antes de emplear esta propiedad vamos a inicializar la misma.
+
+01:13.340 --> 01:14.690
+Lo mismo con aquí adoles.
+
+01:16.260 --> 01:18.360
+En caso de que te preguntes exactamente lo mismo.
+
+01:19.020 --> 01:20.460
+Así que le ahí nuestro lait.
+
+01:21.390 --> 01:26.070
+El otro cambio común que nosotros tenemos que realizar viene siendo justamente las páginas exactamente
+
+01:26.070 --> 01:27.300
+lo mismo que tal va por acá.
+
+01:27.810 --> 01:32.490
+Nuevamente colocar aquí los leyde, ya que aquí estamos empleando nuestros esté el Four Wyeth.
+
+01:32.910 --> 01:37.950
+Por lo tanto, vamos a definir propiedades que no son finen como serían ltl Willet a no tuviéramos ese
+
+01:37.950 --> 01:38.340
+problema.
+
+01:38.880 --> 01:43.740
+Pero aquí como son propiedades que van a cambiar de valor, tenemos que colocar en Leyte, ya que nuevamente
+
+01:43.740 --> 01:47.310
+vamos a inicializar la misma en algún momento clave de la aplicación.
+
+01:47.400 --> 01:48.760
+Generalmente aquí en inestable.
+
+01:49.170 --> 01:54.090
+En caso que podamos wacky como primera operación aquí en el piddle son cosas que tú tienes que ver y
+
+01:54.090 --> 01:56.130
+analizar un poco cuando estemos construyendo la aplicación.
+
+01:56.340 --> 01:58.320
+Por lo tanto, nuevamente aquí cabe nuestro lait.
+
+01:59.160 --> 02:01.530
+Esto lo vas a encontrar en varias páginas que vamos a construir.
+
+02:01.560 --> 02:06.840
+Por ejemplo esta y por aquí también tenemos otra que vamos a emplear para que lo tengas claro.
+
+02:08.250 --> 02:13.410
+Otro cambio que tienes que tener en cuenta que vamos a realizar sería cuando vamos a realizar este tipo
+
+02:13.410 --> 02:14.280
+de operaciones.
+
+02:14.320 --> 02:16.410
+Ya voy a encontrar uno por acá, por aquí.
+
+02:16.560 --> 02:20.790
+En este caso, este tipo operaciones generalmente hacemos una operación como la siguiente.
+
+02:20.970 --> 02:25.920
+Como puedes ver si lo chequeamos, vas a ver que aquí nos indica que le estamos devolviendo un opcional.
+
+02:26.730 --> 02:30.780
+Esto va a resultar, o mejor dicho, este tipo de operaciones que viene siendo condicional corto.
+
+02:31.110 --> 02:33.870
+Vamos a emplearlo múltiples veces en diferentes condiciones.
+
+02:33.990 --> 02:36.150
+En este caso sería para obtener un color nuevamente.
+
+02:36.150 --> 02:37.500
+No importa para qué va a ser este color.
+
+02:37.770 --> 02:41.310
+Es importante que veas es qué es lo que te está indicando, que te está indicando que esto puede ser
+
+02:41.310 --> 02:43.170
+un opcional realmente por aquí.
+
+02:43.170 --> 02:47.880
+Esto nunca va a ser un opcional porque esto es una propiedad y por aquí también lo está tomando el tema.
+
+02:48.030 --> 02:52.640
+Y aquí es una evolución normal que siempre devuelve un color, ya sea esto o esto, pero él dice que
+
+02:52.650 --> 02:53.100
+es un opcional.
+
+02:53.130 --> 02:57.420
+Realmente no entiendo muy bien por qué, pero también lo puedes escribir de otra manera, que realmente
+
+02:57.420 --> 03:00.880
+viene siendo mucho más cómodo que emplear un condicional corto el oro.
+
+03:01.530 --> 03:09.900
+Es decir, en vez de colocar esto, puedes resumirlo como colocas honor y quitas esta condición de tal
+
+03:09.900 --> 03:14.690
+manera que cada vez que vea su condicional corto, puedes emplear este oro de tal manera que lo que
+
+03:14.700 --> 03:21.630
+estás indicando por aquí sería que si esto es nulo, devuelve el color del tema, y si no es nulo,
+
+03:22.020 --> 03:22.740
+devuelve este color.
+
+03:23.100 --> 03:23.790
+Así de simple.
+
+03:24.180 --> 03:28.260
+Así que nuevamente, cada vez que veas una operación como ésta, se te da un error.
+
+03:28.800 --> 03:33.760
+Puedes optimizar un poco, definiéndolo de esta manera para que sea segura con un 6T.
+
+03:34.320 --> 03:42.330
+Así que nuevamente por aquí colocamos un OR y viene siendo prácticamente todo otra operación común que
+
+03:42.330 --> 03:43.290
+vamos a tener que realizar.
+
+03:43.300 --> 03:44.370
+Bueno, aquí va a colocar el Leyte.
+
+03:46.690 --> 03:51.610
+Van a ser justamente aquí los constructores, ya que nuevamente vamos a crear aquí un constructor vacío
+
+03:52.390 --> 03:54.730
+que de manera por defecto va a lucir de la siguiente manera.
+
+03:54.910 --> 03:59.560
+Nuevamente tenemos que darle un valor a estas propiedades que perfectamente pudieran colocarlas como
+
+03:59.560 --> 04:00.010
+opcionales.
+
+04:00.040 --> 04:05.740
+Pero como puede suponer, esta clase que va a ser central para nuestra aplicación, no viene siendo
+
+04:05.740 --> 04:10.000
+lo recomendado a colocarla como opcional, porque vas a tener que verificar si el primer nulo y todo
+
+04:10.000 --> 04:11.470
+este va a ser un pequeño dolor de cabeza.
+
+04:12.040 --> 04:17.320
+Por lo tanto, por aquí, para este constructor por defecto, puedes indicar aquí valores por defecto,
+
+04:17.350 --> 04:20.140
+por ejemplo 0 vacío, vacío, vacío.
+
+04:20.590 --> 04:22.840
+Y aquí también cero inicialización es planas.
+
+04:23.420 --> 04:24.580
+Y con esto nos saltamos esto.
+
+04:24.910 --> 04:29.110
+Otra operación muy común que nosotros vamos a realizar sería que en esta oportunidad vamos a trabajar
+
+04:29.110 --> 04:29.950
+con una base de datos.
+
+04:30.220 --> 04:36.070
+Se ha trabajado con cualquier tipo de base datos, por ejemplo McQuade ya tú debes saber que generalmente
+
+04:36.070 --> 04:41.860
+los sistemas no manejan como que directamente Leydi, ya que la vicepre no genera nuestra base de datos,
+
+04:42.310 --> 04:44.620
+es básicamente el único valor que genera la base de datos.
+
+04:44.770 --> 04:48.670
+Por ejemplo, aquí nosotros tenemos nombre, descripción se está completado y prioridad.
+
+04:49.150 --> 04:54.820
+Todo esto lo va a operar el sistema directamente de la aplicación, es decir, de flubber de la aplicación
+
+04:54.820 --> 04:58.930
+móvil, pero lo que sería Livvy lo va a asignar directamente la base de datos.
+
+04:59.350 --> 05:03.100
+Por lo tanto, es que nosotros hacemos operaciones como la siguiente constructor, como el siguiente
+
+05:03.430 --> 05:08.770
+en el cual definimos nuestro todo a partir de los datos que tenemos, que manejamos, pero en este caso
+
+05:08.770 --> 05:10.450
+nuevamente por el bendito Alceste.
+
+05:11.110 --> 05:13.420
+Si lo dejas de esta manera te va a chillar por el Heidy.
+
+05:15.540 --> 05:21.750
+Así que lo que pudieras hacer sería darle un valor por defecto o emplear aquí el constructor en una
+
+05:21.750 --> 05:24.570
+sola línea y darle también un valor por acá.
+
+05:24.720 --> 05:27.310
+En este caso va a ser así para dejarlo aquí más centralizado.
+
+05:27.840 --> 05:31.320
+Pero nuevamente, existen múltiples maneras de hacer lo mismo con esto.
+
+05:31.350 --> 05:36.000
+Con estos conocimientos que nuevamente puedes emplear para reforzar un poco tus conocimientos sobre
+
+05:36.000 --> 05:42.570
+almorzaste y aplicarlo en una aplicación real que es la que nosotros vamos a construir en esta sección.
+
+05:43.140 --> 05:48.300
+Con esto, básicamente estuvieras listo para avanzar en la construcción de la aplicación.
+
+05:48.600 --> 05:53.700
+Recuerda que puedes ver este vídeo en cualquier momento que tengas alguna duda cuando lo usaste para
+
+05:53.700 --> 05:54.990
+refrescar tus conocimientos.
+
+05:55.290 --> 05:57.090
+O también puedes algún un comentario como tú quieras.
+
+05:57.360 --> 06:03.060
+Esto te lo digo para que tengas todos estos factores que son claves al momento de construir esta aplicación
+
+06:03.450 --> 06:05.040
+y que soporte el dulce este.

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:todoapp_08/helpers/todo_db.dart';
-import 'package:todoapp_08/models/todo_model.dart';
 import 'package:todoapp_08/pages/list_page.dart';
 import 'package:todoapp_08/pages/save_page.dart';
 
@@ -26,19 +25,21 @@ void main() async {
   //todos[0].name = "Todo Modificado";
   //todoDb.update(todos[0]);
 
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'TodoApp',
-      initialRoute: ListPage.ROUTE,
+      initialRoute: ListPage.route,
       routes: {
-        ListPage.ROUTE: (_) => ListPage(),
-        SavePage.ROUTE: (_) => SavePage(),
+        ListPage.route: (_) => const ListPage(),
+        SavePage.route: (_) => SavePage(),
       },
     );
   }

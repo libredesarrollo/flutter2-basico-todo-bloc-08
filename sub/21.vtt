@@ -1,0 +1,205 @@
+WEBVTT
+
+00:06.470 --> 00:10.640
+Ahora bien, vamos a trabajar en esta página, que viene siendo la del Estado para hacer unos detalles
+
+00:10.640 --> 00:12.080
+bastante sencillos.
+
+00:13.220 --> 00:17.390
+Así que lo que yo quiero hacer aquí sería trabajar directamente en la página que tenemos acá.
+
+00:17.450 --> 00:22.520
+Por ejemplo, colocar acá en un iconito que aparezca la prioridad y por acá que aparezca también la
+
+00:22.520 --> 00:22.940
+descripción.
+
+00:23.510 --> 00:27.110
+Esto ya lo hemos tratado interiormente, por lo tanto te lo puedes tomar como un pequeño reto o simplemente
+
+00:27.110 --> 00:31.040
+saltar a este video, aunque te recomiendo que al menos no veas o lo apliques como tú quieras.
+
+00:31.730 --> 00:33.830
+Vamos a comenzar por aquí.
+
+00:34.490 --> 00:35.500
+Vamos a regresar.
+
+00:35.510 --> 00:41.900
+Voy a dejar este mensaje al menos de momento, y vamos a regresar justamente por acá arriba al componente
+
+00:41.900 --> 00:44.900
+de View listÃn que tenemos acá por acá.
+
+00:44.900 --> 00:53.990
+Recordemos que tenemos en descripción o mejor dicho, el subtítulo colocamos título y por aquí perfectamente
+
+00:53.990 --> 00:55.700
+podemos indicar la descripción.
+
+00:55.970 --> 00:56.720
+Así de simple.
+
+00:57.920 --> 01:01.950
+Copio esto que coloco aquí es Crixo.
+
+01:02.480 --> 01:04.820
+Si guardamos por aquí, ya tenemos la descripción.
+
+01:04.850 --> 01:05.390
+Perfecto.
+
+01:05.990 --> 01:11.150
+Ahora bien, el iconito en vez de Chuang que ya lo estamos empleando, voy a colocar el living por acá
+
+01:11.570 --> 01:11.990
+y por acá.
+
+01:11.990 --> 01:17.240
+Podemos colocar, por ejemplo, PECS, que diga justamente lo que tenemos por acá.
+
+01:17.660 --> 01:22.310
+Bueno, voy a quitar esto con lo contex y coloco aquí, por ejemplo, la prioridad
+
+01:25.340 --> 01:25.640
+Priority.
+
+01:26.670 --> 01:28.190
+Aquí lo tenemos, pero no me gusta.
+
+01:29.120 --> 01:30.320
+Podemos acomodar un poco más.
+
+01:30.890 --> 01:37.460
+Vamos a ampliar esto el nuevo widget que va a ser el de Circle autárquica.
+
+01:37.520 --> 01:41.600
+Para ver este mismo avatar, aquí lo tenemos.
+
+01:42.020 --> 01:45.000
+Si guardamos, vas a ver que aquí lo tenemos mucho mejor.
+
+01:46.010 --> 01:47.110
+Vamos a personalizar un poco más.
+
+01:47.120 --> 01:51.680
+Por ejemplo, indicar que si la prioridad viene sin igual A10 perfectamente lo colocas en rojo, por
+
+01:51.680 --> 01:54.760
+ejemplo, y si viene siendo mayor o menor a 5, algo por el estilo.
+
+01:54.770 --> 01:58.430
+La lógica que te lo quiera dar puede tener otro color o los colores que tu quieras.
+
+01:58.820 --> 02:00.090
+Yo en este caso emplear el ternario.
+
+02:00.110 --> 02:03.980
+Por lo tanto, simplemente voy a emplear dos condiciones, pero recuerda que tú puedes personalizarlo
+
+02:04.010 --> 02:04.790
+como tú quieras.
+
+02:05.480 --> 02:10.790
+Por ejemplo, recordemos que aquí tenemos el background color y podemos preguntar justamente por la
+
+02:10.790 --> 02:11.300
+prioridad.
+
+02:11.390 --> 02:17.000
+Voy a copiar toda esta chuleta apego acá y puedo preguntar si esto es por ejemplo, mayor igual a 5.
+
+02:18.050 --> 02:21.560
+Puedo colocarlo en rojo o mayores, simplemente estricto, como tú quieras.
+
+02:22.460 --> 02:26.810
+Voy a colocar acá colores puntu, por ejemplo.
+
+02:27.350 --> 02:30.230
+Caso contrario, puedo colocarlo en color puntó.
+
+02:30.920 --> 02:33.020
+Por qué hacemos esto?
+
+02:33.830 --> 02:34.640
+Y aquí lo tenemos.
+
+02:35.030 --> 02:37.250
+Vamos a colocar este esta letra en blanco.
+
+02:38.660 --> 02:40.370
+Acá nuevamente túan el estilo que tú quieras.
+
+02:41.000 --> 02:44.570
+Para centrar más acá colocamos el tipo de tex.
+
+02:44.690 --> 02:45.140
+Está bien.
+
+02:47.210 --> 02:53.540
+Le variamos el color color de colores junto with controles paso.
+
+02:53.540 --> 02:54.260
+Y aquí lo tenemos.
+
+02:54.350 --> 02:57.260
+Guardamos, ya que lo tenemos mucho mejor.
+
+02:57.890 --> 03:03.770
+Quiero acomodar otra cosita que sería acomodar los mas importantes aquí primero y lo que sea menos importante
+
+03:03.770 --> 03:08.630
+porque es decir, los que tengan el valor de 10, ya que va a manejar supuestamente esto de 10 a cero
+
+03:08.630 --> 03:11.600
+o a 10 a 1 viene siendo la lógica que le quiero dar perfectamente.
+
+03:11.600 --> 03:17.240
+Tu podías limitarlo en el formulario que tenemos por acá ya es cosa tuya, pero al menos quiero hacer
+
+03:17.240 --> 03:18.140
+esa organización.
+
+03:18.890 --> 03:24.860
+Para eso tenemos que regresar por acá y buscar control P o como en B el de B que lo tenemos.
+
+03:25.250 --> 03:31.040
+La función de quetal que la tenemos en alguna parte creo que arriba que la tenemos y podemos especificar
+
+03:31.040 --> 03:33.830
+perfectamente un Finder para nuestro fin.
+
+03:34.430 --> 03:43.400
+Vamos a colocar acá un Faina Finder va a ser igual a Finder de son órdenes, es decir, el campo de
+
+03:43.400 --> 03:47.870
+ordenación que viene siendo una lista, por lo tanto puede indicar más de uno, pero yo solamente quiero
+
+03:47.870 --> 03:49.790
+uno sort.
+
+03:52.280 --> 03:56.840
+Cordero para que especificamos la peor, la prioridad que viene siendo el campo por el cual yo quiero
+
+03:56.840 --> 04:01.970
+ordenar brió criti y se lo pasamos por acá.
+
+04:02.780 --> 04:13.700
+Al fin colocamos fin Fielder la cuestión guardamos y vamos a recargar para que tome los cambios.
+
+04:15.140 --> 04:18.560
+Regresamos acá, esperamos un momento y vamos a ver que logramos en este punto.
+
+04:18.560 --> 04:23.320
+Miró colocó todos los uno primero y lo había de último, pero yo lo quiero al revés.
+
+04:24.020 --> 04:29.240
+Así que por aquí podemos indicar un parámetro ponermelo otro que viene siendo básicamente de orden de
+
+04:29.240 --> 04:34.880
+cara mental, que es lo que tenemos en este punto y fales para que sea ascendente.
+
+04:35.600 --> 04:41.600
+Hacemos esto, voy a recargar toda la página, regresamos acá y es que lo tenemos.

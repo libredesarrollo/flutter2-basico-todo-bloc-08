@@ -1,0 +1,157 @@
+WEBVTT
+
+00:05.270 --> 00:08.900
+Ok, lo siguiente que vamos a necesitar sería instalar unos paquetes con los cuales mostrar un poco
+
+00:08.900 --> 00:13.130
+más adelante, en esta caso en que estamos hablando en este punto, que nos van a servir básicamente
+
+00:13.130 --> 00:15.260
+para almacenar los datos de manera persistente.
+
+00:15.710 --> 00:20.500
+El primero sería simplemente una base de datos, en este caso sería una base de datos de tipo no SQL
+
+00:20.510 --> 00:22.460
+no viene siendo algo como Mongo DB ni nada por el estilo.
+
+00:22.460 --> 00:26.930
+Si una nueva base de datos de tipo clave valor, que es la que tenemos por acá, se llama como sambas
+
+00:27.440 --> 00:28.120
+perfectamente.
+
+00:28.130 --> 00:33.320
+Tu pudieras emplear otras, por ejemplo la de SQL Elide, específicamente la de ese conflict para el
+
+00:33.320 --> 00:37.640
+paquete que tenemos para Flubber, pero simplemente por hacer algunas variaciones voy a emplear esta.
+
+00:38.000 --> 00:42.530
+Seguramente más adelante vamos a ampliar la secuela elit, es decir, la de Scale Flight para Flubber,
+
+00:42.890 --> 00:46.250
+pero no en esta aplicación y en esta sección que vamos a crear este tipo de aplicación.
+
+00:46.640 --> 00:51.590
+También te recuerdo que en mi canal de YouTube yo cuento con curso bastante básico sobre Flubber, en
+
+00:51.590 --> 00:56.090
+las cuales realizamos unas operaciones CRUD sobre nuestro deseo offline, empleando también lo que sería
+
+00:56.090 --> 00:59.720
+nuestro paredes en caso que te interese también saber cómo trabajar con estas tecnologías.
+
+00:59.750 --> 01:03.380
+Y por supuesto, configurar es completamente gratuito y se encuentra en mi canal de YouTube.
+
+01:03.560 --> 01:07.700
+También vamos a necesitar instalar otro paquete que viene siendo este mapa provider, que nos permite
+
+01:07.700 --> 01:12.530
+básicamente obtener el pack de la aplicación, es decir, básicamente un espacio donde se pueden almacenar
+
+01:12.800 --> 01:13.610
+nuestros archivos.
+
+01:13.790 --> 01:18.200
+El por qué de esto se debe a que básicamente la base de datos desea ambas, al igual que ocurre con
+
+01:18.500 --> 01:19.080
+el secu light.
+
+01:19.790 --> 01:21.140
+Es simplemente un archivo.
+
+01:21.200 --> 01:26.690
+Un archivo que tenemos que almacenar en algún lugar y algún lugar debería ser simplemente la carpeta
+
+01:26.690 --> 01:31.610
+de la aplicación en la aplicación CONTEX por mencionarlo alguna manera de la aplicación local a la aplicación,
+
+01:31.910 --> 01:36.530
+ya que recuerda que cuando instalas una aplicación, ya sea en Android o ellos, esto te lo instala
+
+01:36.560 --> 01:42.230
+directamente en una carpeta y básicamente nosotros vamos a acceder a esa carpeta y ahí nosotros tenemos
+
+01:42.230 --> 01:44.660
+total privilegios para hacer lo que nosotros queramos.
+
+01:44.780 --> 01:48.620
+En este caso sería simplemente almacenar un archivo, específicamente la base de datos que tenemos por
+
+01:48.620 --> 01:50.610
+acá y para eso vamos a ampliar un poco más a la parte de.
+
+01:51.140 --> 01:52.100
+Así que vamos a comenzar.
+
+01:52.160 --> 01:56.000
+Simplemente vamos a ir a la sección Instalación y por aquí tenemos el paquete que tenemos que.
+
+01:56.450 --> 01:58.370
+Recuerda que puedes colocar la versión si tú quieres.
+
+01:58.730 --> 02:02.210
+Yo en mi caso, voy a colocar simplemente el nombre y voy a pasar por alto la versión para que instale
+
+02:02.480 --> 02:03.350
+de una vez la última.
+
+02:03.890 --> 02:09.200
+Copiamos esto ahora estamos acá, buscamos el punto ñal y vamos a señalarlo justamente por acá.
+
+02:09.620 --> 02:12.890
+Tanto este a la altura de flores muy importante.
+
+02:13.250 --> 02:18.320
+Guardamos por acá para que se ejecute el siguiente comando y ahora lo siguiente para el de Path Provider,
+
+02:18.410 --> 02:24.950
+que era el que te comentaba que servía para obtener el field, estén básicamente localizar el application.
+
+02:24.950 --> 02:28.360
+Documenté un directory de la aplicación y con esto obtener el pago.
+
+02:28.400 --> 02:33.950
+Bueno, básicamente pueden almacenar este archivo específicamente la base de datos por acá en una ubicación
+
+02:33.950 --> 02:34.810
+que sea localmente.
+
+02:34.820 --> 02:37.940
+La aplicación para instalarlo viene siendo por aquí.
+
+02:37.940 --> 02:39.140
+Tenemos la edad, sexo e instalación.
+
+02:39.140 --> 02:40.450
+Exactamente lo mismo para provider.
+
+02:40.460 --> 02:44.170
+Nos copiamos, regresamos por acá y voy a pegarlo antes de guardar.
+
+02:44.180 --> 02:44.870
+Voy a copiar.
+
+02:45.170 --> 02:50.690
+Siempre me gusta colocar por acá la RL de los sitios que yo empleo para todos estos paquetes donde se
+
+02:50.690 --> 02:52.490
+encuentra para que tenga directamente información.
+
+02:53.300 --> 02:54.920
+Así que voy a dejarlo por acá como comentario.
+
+02:57.270 --> 03:02.600
+Y aquí lo tenemos, bordamos para que se ejecute el comando correspondiente para ahora obtener este
+
+03:02.600 --> 03:06.620
+paquete y esperamos un momento que termine para que todo termine de manera satisfactoria.
+
+03:07.110 --> 03:12.290
+Y ya con esto terminamos el objetivo de este video, el cual simplemente era instalar estos paquetes
+
+03:12.290 --> 03:14.000
+y explicar para que resolvamos emplearlo.
