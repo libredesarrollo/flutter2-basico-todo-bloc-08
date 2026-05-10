@@ -1,39 +1,47 @@
-# TodoApp BLoC - Gestión de Tareas en Flutter
+# TodoApp Flutter - BLoC & Sembast
 
-Este es un proyecto de ejemplo que demuestra el uso del patrón **BLoC (Business Logic Component)** para la gestión del estado y **Sembast** como base de datos NoSQL persistente en una aplicación de Flutter.
+Este es un proyecto de ejemplo de una aplicación de tareas (Todo App) desarrollada con **Flutter**, utilizando el patrón **BLoC** para el manejo del estado y **Sembast** como base de datos NoSQL local.
 
-## Características
+Este proyecto forma parte del material educativo de **Desarrollo Libre**.
 
-- **Arquitectura Limpia**: Separación de la lógica de negocio, la interfaz de usuario y la persistencia de datos.
-- **Patrón BLoC**: Implementación de Streams y StreamControllers para manejar el flujo de datos de forma asíncrona sin depender de librerías externas.
-- **Persistencia Local**: Uso de Sembast para almacenar las tareas de forma local en el dispositivo.
-- **Operaciones CRUD**: Crear, leer, actualizar y eliminar tareas de forma reactiva.
-- **Gestión de Prioridades**: Permite asignar una prioridad y fecha límite a cada tarea.
+## 🚀 Recursos Educativos
 
-## Tecnologías Utilizadas
+Si estás comenzando con Flutter o quieres profundizar en el desarrollo de aplicaciones móviles, te recomendamos el siguiente recurso:
 
-- [Flutter](https://flutter.dev/) - Framework de UI de Google.
-- [Sembast](https://pub.dev/packages/sembast) - Base de datos NoSQL persistente para Dart/Flutter.
-- [Path Provider](https://pub.dev/packages/path_provider) - Para encontrar ubicaciones comunes en el sistema de archivos.
+👉 **[Libro Completo: Primeros pasos con Flutter](https://www.desarrollolibre.net/libros/primeros-pasos-flutter)**
 
-## Recursos Adicionales
+---
 
-Para profundizar en el desarrollo de aplicaciones con Flutter, componentes avanzados y animaciones, puedes consultar el siguiente libro:
+## ✨ Características
 
-👉 **[Componentes y Animaciones en Flutter](https://www.desarrollolibre.net/libros/componentes-y-animaciones-en-flutter)**
+- 📝 **Gestión de Tareas:** Crear, leer, actualizar y eliminar (CRUD) tareas.
+- 💾 **Persistencia Local:** Uso de **Sembast** para almacenar las tareas de forma persistente en el dispositivo.
+- 🏗️ **Arquitectura BLoC:** Separación clara entre la lógica de negocio y la interfaz de usuario.
+- 🎨 **Interfaz Moderna:** Diseño limpio y responsivo siguiendo las guías de Material Design.
 
-## Configuración y Ejecución
+## 🛠️ Tecnologías Utilizadas
 
-1. Asegúrate de tener instalado el SDK de Flutter.
-2. Clona este repositorio o descarga el código fuente.
-3. En la terminal, navega hasta la raíz del proyecto y ejecuta:
+- [Flutter](https://flutter.dev/) - Framework de UI.
+- [Sembast](https://pub.dev/packages/sembast) - Base de datos NoSQL local.
+- [Path Provider](https://pub.dev/packages/path_provider) - Localización de directorios en el sistema de archivos.
+
+## ⚙️ Instalación y Ejecución
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone <url-del-repositorio>
+   ```
+
+2. **Obtener las dependencias:**
    ```bash
    flutter pub get
    ```
-4. Conecta un dispositivo o inicia un emulador y ejecuta:
+
+3. **Ejecutar la aplicación:**
    ```bash
    flutter run
    ```
 
 ---
-Desarrollado como parte del aprendizaje de patrones de diseño y persistencia en Flutter.
+
+Desarrollado con ❤️ por [Desarrollo Libre](https://www.desarrollolibre.net).
